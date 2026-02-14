@@ -5,6 +5,11 @@ module.exports = defineConfig({
   timeout: 30 * 1000,
   use: {
     headless: false,
-    viewport: { width: 1280, height: 720 }
-  }
+    viewport: { width: 1280, height: 720 },
+    trace: 'on-first-retry'
+  },
+  reporter: [
+    ['html'],
+    ['json', { outputFile: 'test-results/results.json' }]
+  ]
 });

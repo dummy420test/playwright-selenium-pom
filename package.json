@@ -8,7 +8,7 @@
     "selenium": "node selenium/selenium_search.js"
   },
   "devDependencies": {
-    "@playwright/test": "^1.40.0",
+    "@playwright/test": "^1.58.2",
     "chromedriver": "^116.0.0"
   },
   "dependencies": {
