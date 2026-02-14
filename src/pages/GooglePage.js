@@ -1,15 +1,17 @@
+const { searchLocators } = require('../locators/DuckduckgoSearch');
+
 class GooglePage {
   /**
    * @param {import('@playwright/test').Page} page
    */
   constructor(page) {
     this.page = page;
-    this.searchBox = page.locator('xpath=//*[@id="searchbox_input"]');
-  //  this.acceptButton = page.locator('button:has-text("Accept all")');
-  this.clickSearchButton = page.locator('xpath=//button[@title="Search"]');
-  this.clicksubmutButton = page.locator('xpath=//*[@type="submit"]');
-    this.verifySearchResults = page.locator('#search');
-  }
+    // Use locators from the locators file
+    this.searchBox = page.locator(searchLocators.SEARCH_BOX);
+    this.clickSearchButton = page.locator(searchLocators.SEARCH_BUTTON);
+    this.clicksubmutButton = page.locator(searchLocators.SUBMIT_BUTTON);
+    this.verifySearchResults = page.locator(searchLocators.SEARCH_RESULTS);
+    this.acceptButton = page.locator(searchLocators.ACCEPT_BUTTON);  }
 
   async goto() {
     await this.page.goto('https://duckduckgo.com/', { waitUntil: 'domcontentloaded' });

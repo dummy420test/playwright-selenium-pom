@@ -7,16 +7,16 @@ require('chromedriver');
     await driver.get('https://www.google.com');
 
     // try to click consent/agree buttons if present
-    try {
-      const buttons = await driver.findElements(By.css('button'));
-      for (const b of buttons) {
-        const text = await b.getText();
-        if (/agree|accept|consent/i.test(text)) {
-          await b.click().catch(() => {});
-          break;
-        }
-      }
-    } catch (e) {}
+    // try {
+    //   const buttons = await driver.findElements(By.css('button'));
+    //   for (const b of buttons) {
+    //     const text = await b.getText();
+    //     if (/agree|accept|consent/i.test(text)) {
+    //       await b.click().catch(() => {});
+    //       break;
+    //     }
+    //   }
+    // } catch (e) {}
 
     const term = 'random ' + Math.random().toString(36).slice(2, 10);
     const input = await driver.findElement(By.name('q'));

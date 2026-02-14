@@ -5,8 +5,9 @@ module.exports = defineConfig({
   timeout: 30 * 1000,
   use: {
     headless: false,
+    slowMo: 100,
     viewport: { width: 1280, height: 720 },
-    trace: 'on-first-retry'
+   userAgent: devices['Desktop Chrome'].userAgent,
   },
   reporter: [
     ['html'],
