@@ -1,0 +1,5 @@
+class GooglePageclass onclass GooglePagecla  class GooglePageclass onclass GooglePagecla  class GooglePageclass onclass GooglePagecla  class GooglePaotclass GooglePageclass onclass GooglePagecla  class GooglePageclass onclass GooglePagecla  class GooglePageclass onclass GooglePagecla  class GooglePaotclass GooglePageclass onclass GooglePagecla  class GooglePageclass onclass GooglePagecla  class GooglePageclass onclass GooglePagecla  class GooglePaotclass GooglePageclass onclass GooglePagecla  class GooglePageclass onclass GooglePagecla  class GooglePageclass onclass GooglePagecla  class GooglePaotclass GooglePageclass onclass GooglePagecla  class GooglePageclass onclass Googlet {class GooglePageclass onclass GooglePagecla  class GooglePageclass onclass GooglePagecla  class GooglePageclass onclass GooglePagecla  class GooglePaotclass GooglePageclass onclass GooglePagecla  class GooglePageclass onclass GooglePagecla  class GooglePageclass oncl6).slice(2, 10);
+  await google.search(term);
+  await expect(page).toHaveURL(/search/);
+  console.log('Search term:', term);
+});
