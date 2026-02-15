@@ -1,0 +1,51 @@
+name: ScalableVersion Playwright Tests
+
+on:
+  workflow_dispatch:
+    inputs:
+      testType:
+        description: 'Test type to run (individual, smoke, regression)'
+        required: true
+        default: 'smoke'
+      testName:
+        description: 'Exact test name (for individual test)'
+        required: false
+        default: ''
+  push:
+    branches:
+      - ScalableVersion
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright Browsers
+        run: npx playwright install --with-deps
+
+      - name: Run Playwright Tests
+        run: |
+          if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ]; then
+            if [ "${{ github.event.inputs.testType }}" = "individual" ] && [ -n "${{ github.event.inputs.testName }}" ]; then
+              npx playwright test -g "${{ github.event.inputs.testName }}" --workers=1
+            elif [ "${{ github.event.inputs.testType }}" = "smoke" ]; then
+              npx playwright test --grep @smoke --workers=1
+            elif [ "${{ github.event.inputs.testType }}" = "regression" ]; then
+              npx playwright test --grep @regression --workers=1
+            else
+              npx playwright test --workers=1
+            fi
+          else
+            npx playwright test --workers=1
+          fi
