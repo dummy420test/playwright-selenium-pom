@@ -1,0 +1,1351 @@
+{
+  "config": {
+    "configFile": "/Users/aakargupte/playwright-selenium-pom/playwright.config.js",
+    "rootDir": "/Users/aakargupte/playwright-selenium-pom/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 4
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/aakargupte/playwright-selenium-pom/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 4
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/Users/aakargupte/playwright-selenium-pom/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/aakargupte/playwright-selenium-pom/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 4
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/Users/aakargupte/playwright-selenium-pom/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/aakargupte/playwright-selenium-pom/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 4
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/Users/aakargupte/playwright-selenium-pom/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "html",
+        {
+          "outputFolder": "playwright-report"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "reports/results.json"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "reports/results.xml"
+        }
+      ],
+      [
+        "list",
+        null
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "runAgents": "none",
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.58.2",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "e2e/search/search.spec.js",
+      "file": "e2e/search/search.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "DuckDuckGo Search @e2e @search",
+          "file": "e2e/search/search.spec.js",
+          "line": 13,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC001: Should search with valid term @smoke @regression",
+              "ok": true,
+              "tags": [
+                "e2e",
+                "search",
+                "smoke",
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 11293,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-15T13:51:14.243Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aef629e19d6027bc927e-9cd7678a6283b6928b71",
+              "file": "e2e/search/search.spec.js",
+              "line": 28,
+              "column": 3
+            },
+            {
+              "title": "TC002: Should verify search results page URL @smoke",
+              "ok": true,
+              "tags": [
+                "e2e",
+                "search",
+                "smoke"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 12628,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-15T13:51:14.244Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aef629e19d6027bc927e-d996097adb379626b005",
+              "file": "e2e/search/search.spec.js",
+              "line": 48,
+              "column": 3
+            },
+            {
+              "title": "TC006: Should retrieve result count @smoke",
+              "ok": true,
+              "tags": [
+                "e2e",
+                "search",
+                "smoke"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 11292,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-15T13:51:14.252Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aef629e19d6027bc927e-1660044e94564a0b15b8",
+              "file": "e2e/search/search.spec.js",
+              "line": 110,
+              "column": 3
+            },
+            {
+              "title": "TC001: Should search with valid term @smoke @regression",
+              "ok": false,
+              "tags": [
+                "e2e",
+                "search",
+                "smoke",
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 3,
+                      "status": "failed",
+                      "duration": 12889,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: >= \u001b[32m1\u001b[39m\nReceived:    \u001b[31m0\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: >= \u001b[32m1\u001b[39m\nReceived:    \u001b[31m0\u001b[39m\n    at CustomAssertions.assertResultCount (/Users/aakargupte/playwright-selenium-pom/src/utils/assertions.js:44:21)\n    at /Users/aakargupte/playwright-selenium-pom/tests/e2e/search/search.spec.js:38:22",
+                        "location": {
+                          "file": "/Users/aakargupte/playwright-selenium-pom/src/utils/assertions.js",
+                          "column": 21,
+                          "line": 44
+                        },
+                        "snippet": "\u001b[90m   at \u001b[39m../src/utils/assertions.js:44\n\n\u001b[0m \u001b[90m 42 |\u001b[39m   \u001b[36mstatic\u001b[39m assertResultCount(count\u001b[33m,\u001b[39m expectedMin\u001b[33m,\u001b[39m expectedMax\u001b[33m,\u001b[39m message \u001b[33m=\u001b[39m \u001b[32m''\u001b[39m) {\n \u001b[90m 43 |\u001b[39m     \u001b[36mtry\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 44 |\u001b[39m       expect(count)\u001b[33m.\u001b[39mtoBeGreaterThanOrEqual(expectedMin)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 45 |\u001b[39m       expect(count)\u001b[33m.\u001b[39mtoBeLessThanOrEqual(expectedMax)\u001b[33m;\u001b[39m\n \u001b[90m 46 |\u001b[39m       logger\u001b[33m.\u001b[39minfo(\u001b[32m`✓ Result count ${count} is within range [${expectedMin}, ${expectedMax}]`\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 47 |\u001b[39m     } \u001b[36mcatch\u001b[39m (error) {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/aakargupte/playwright-selenium-pom/src/utils/assertions.js",
+                            "column": 21,
+                            "line": 44
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: >= \u001b[32m1\u001b[39m\nReceived:    \u001b[31m0\u001b[39m\n\n\u001b[90m   at \u001b[39m../src/utils/assertions.js:44\n\n\u001b[0m \u001b[90m 42 |\u001b[39m   \u001b[36mstatic\u001b[39m assertResultCount(count\u001b[33m,\u001b[39m expectedMin\u001b[33m,\u001b[39m expectedMax\u001b[33m,\u001b[39m message \u001b[33m=\u001b[39m \u001b[32m''\u001b[39m) {\n \u001b[90m 43 |\u001b[39m     \u001b[36mtry\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 44 |\u001b[39m       expect(count)\u001b[33m.\u001b[39mtoBeGreaterThanOrEqual(expectedMin)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 45 |\u001b[39m       expect(count)\u001b[33m.\u001b[39mtoBeLessThanOrEqual(expectedMax)\u001b[33m;\u001b[39m\n \u001b[90m 46 |\u001b[39m       logger\u001b[33m.\u001b[39minfo(\u001b[32m`✓ Result count ${count} is within range [${expectedMin}, ${expectedMax}]`\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 47 |\u001b[39m     } \u001b[36mcatch\u001b[39m (error) {\u001b[0m\n\u001b[2m    at CustomAssertions.assertResultCount (/Users/aakargupte/playwright-selenium-pom/src/utils/assertions.js:44:21)\u001b[22m\n\u001b[2m    at /Users/aakargupte/playwright-selenium-pom/tests/e2e/search/search.spec.js:38:22\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-15T13:51:33.539Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/aakargupte/playwright-selenium-pom/test-results/e2e-search-search-DuckDuck-80e89-valid-term-smoke-regression-firefox/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/aakargupte/playwright-selenium-pom/test-results/e2e-search-search-DuckDuck-80e89-valid-term-smoke-regression-firefox/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/aakargupte/playwright-selenium-pom/test-results/e2e-search-search-DuckDuck-80e89-valid-term-smoke-regression-firefox/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/aakargupte/playwright-selenium-pom/src/utils/assertions.js",
+                        "column": 21,
+                        "line": 44
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "aef629e19d6027bc927e-3f1840406839b9ad945a",
+              "file": "e2e/search/search.spec.js",
+              "line": 28,
+              "column": 3
+            },
+            {
+              "title": "TC002: Should verify search results page URL @smoke",
+              "ok": true,
+              "tags": [
+                "e2e",
+                "search",
+                "smoke"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 14673,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-15T13:51:34.487Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aef629e19d6027bc927e-cd7ce14500c9ae5fd32c",
+              "file": "e2e/search/search.spec.js",
+              "line": 48,
+              "column": 3
+            },
+            {
+              "title": "TC006: Should retrieve result count @smoke",
+              "ok": true,
+              "tags": [
+                "e2e",
+                "search",
+                "smoke"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 12399,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-15T13:51:35.894Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aef629e19d6027bc927e-280932500b3d25b7b659",
+              "file": "e2e/search/search.spec.js",
+              "line": 110,
+              "column": 3
+            },
+            {
+              "title": "TC001: Should search with valid term @smoke @regression",
+              "ok": true,
+              "tags": [
+                "e2e",
+                "search",
+                "smoke",
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 22698,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-15T13:52:00.593Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aef629e19d6027bc927e-6ee724961bd65d81a0d3",
+              "file": "e2e/search/search.spec.js",
+              "line": 28,
+              "column": 3
+            },
+            {
+              "title": "TC002: Should verify search results page URL @smoke",
+              "ok": true,
+              "tags": [
+                "e2e",
+                "search",
+                "smoke"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 23825,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-15T13:52:00.591Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aef629e19d6027bc927e-c88cfaa0c5d02145fcd2",
+              "file": "e2e/search/search.spec.js",
+              "line": 48,
+              "column": 3
+            },
+            {
+              "title": "TC006: Should retrieve result count @smoke",
+              "ok": true,
+              "tags": [
+                "e2e",
+                "search",
+                "smoke"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 25007,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-15T13:52:04.267Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aef629e19d6027bc927e-87eb344109f3e89ec44e",
+              "file": "e2e/search/search.spec.js",
+              "line": 110,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "DuckDuckGo Search Smoke Tests",
+          "file": "e2e/search/search.spec.js",
+          "line": 150,
+          "column": 6,
+          "specs": [
+            {
+              "title": "SMOKE001: Homepage loads successfully @smoke",
+              "ok": true,
+              "tags": [
+                "smoke"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 7335,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-15T13:51:14.262Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aef629e19d6027bc927e-e62c0f7e2295da466dca",
+              "file": "e2e/search/search.spec.js",
+              "line": 158,
+              "column": 3
+            },
+            {
+              "title": "SMOKE002: Basic search works @smoke",
+              "ok": true,
+              "tags": [
+                "smoke"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 9249,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-15T13:51:23.272Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aef629e19d6027bc927e-85ac899e1cdfc9622e64",
+              "file": "e2e/search/search.spec.js",
+              "line": 165,
+              "column": 3
+            },
+            {
+              "title": "SMOKE003: Search box is visible @smoke",
+              "ok": true,
+              "tags": [
+                "smoke"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 3986,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-15T13:51:27.183Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aef629e19d6027bc927e-63ab9cf1c731c9b38aba",
+              "file": "e2e/search/search.spec.js",
+              "line": 173,
+              "column": 3
+            },
+            {
+              "title": "SMOKE001: Homepage loads successfully @smoke",
+              "ok": true,
+              "tags": [
+                "smoke"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 6333,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-15T13:51:41.280Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aef629e19d6027bc927e-b84565400e24a76b8bd4",
+              "file": "e2e/search/search.spec.js",
+              "line": 158,
+              "column": 3
+            },
+            {
+              "title": "SMOKE002: Basic search works @smoke",
+              "ok": true,
+              "tags": [
+                "smoke"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 7223,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-15T13:51:49.012Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aef629e19d6027bc927e-242abd9ba2604d5a821c",
+              "file": "e2e/search/search.spec.js",
+              "line": 165,
+              "column": 3
+            },
+            {
+              "title": "SMOKE003: Search box is visible @smoke",
+              "ok": true,
+              "tags": [
+                "smoke"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2411,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-15T13:51:49.728Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aef629e19d6027bc927e-21fdf0e01d142f57dab4",
+              "file": "e2e/search/search.spec.js",
+              "line": 173,
+              "column": 3
+            },
+            {
+              "title": "SMOKE001: Homepage loads successfully @smoke",
+              "ok": true,
+              "tags": [
+                "smoke"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 12,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 16418,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-15T13:52:10.795Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aef629e19d6027bc927e-96c21783fa87e4f3b1f6",
+              "file": "e2e/search/search.spec.js",
+              "line": 158,
+              "column": 3
+            },
+            {
+              "title": "SMOKE002: Basic search works @smoke",
+              "ok": true,
+              "tags": [
+                "smoke"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 12,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 11274,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-15T13:52:28.544Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aef629e19d6027bc927e-17b8d2a98e0a285ec2ad",
+              "file": "e2e/search/search.spec.js",
+              "line": 165,
+              "column": 3
+            },
+            {
+              "title": "SMOKE003: Search box is visible @smoke",
+              "ok": true,
+              "tags": [
+                "smoke"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 8074,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-15T13:52:34.794Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aef629e19d6027bc927e-abfa3c79d9ca61429339",
+              "file": "e2e/search/search.spec.js",
+              "line": 173,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "e2e/smoke/smoke.spec.js",
+      "file": "e2e/smoke/smoke.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "DuckDuckGo Smoke Tests @smoke",
+          "file": "e2e/smoke/smoke.spec.js",
+          "line": 10,
+          "column": 6,
+          "specs": [
+            {
+              "title": "SM001: Application homepage is accessible @smoke",
+              "ok": true,
+              "tags": [
+                "smoke",
+                "smoke"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3489,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-15T13:51:27.186Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b8038d4767de92f1cc68-6779f7c4060b2ff53207",
+              "file": "e2e/smoke/smoke.spec.js",
+              "line": 24,
+              "column": 3
+            },
+            {
+              "title": "SM002: Search functionality is operational @smoke",
+              "ok": true,
+              "tags": [
+                "smoke",
+                "smoke"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 4773,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-15T13:51:28.532Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b8038d4767de92f1cc68-e1b92afa2e3a574da573",
+              "file": "e2e/smoke/smoke.spec.js",
+              "line": 31,
+              "column": 3
+            },
+            {
+              "title": "SM003: Search returns results @smoke",
+              "ok": true,
+              "tags": [
+                "smoke",
+                "smoke"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4416,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-15T13:51:30.706Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b8038d4767de92f1cc68-a3941af991b660e3947c",
+              "file": "e2e/smoke/smoke.spec.js",
+              "line": 40,
+              "column": 3
+            },
+            {
+              "title": "SM004: Result links are clickable @smoke",
+              "ok": true,
+              "tags": [
+                "smoke",
+                "smoke"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 7712,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-15T13:51:31.196Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b8038d4767de92f1cc68-1e025d9903457409ade4",
+              "file": "e2e/smoke/smoke.spec.js",
+              "line": 49,
+              "column": 3
+            },
+            {
+              "title": "SM001: Application homepage is accessible @smoke",
+              "ok": true,
+              "tags": [
+                "smoke",
+                "smoke"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 4385,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-15T13:51:52.491Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b8038d4767de92f1cc68-aa81b2721507b63a8c72",
+              "file": "e2e/smoke/smoke.spec.js",
+              "line": 24,
+              "column": 3
+            },
+            {
+              "title": "SM002: Search functionality is operational @smoke",
+              "ok": true,
+              "tags": [
+                "smoke",
+                "smoke"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7151,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-15T13:51:52.207Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b8038d4767de92f1cc68-2faa625aa3e6522d6ac5",
+              "file": "e2e/smoke/smoke.spec.js",
+              "line": 31,
+              "column": 3
+            },
+            {
+              "title": "SM003: Search returns results @smoke",
+              "ok": false,
+              "tags": [
+                "smoke",
+                "smoke"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 1,
+                      "status": "failed",
+                      "duration": 10486,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n    at /Users/aakargupte/playwright-selenium-pom/tests/e2e/smoke/smoke.spec.js:45:28",
+                        "location": {
+                          "file": "/Users/aakargupte/playwright-selenium-pom/tests/e2e/smoke/smoke.spec.js",
+                          "column": 28,
+                          "line": 45
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 43 |\u001b[39m\n \u001b[90m 44 |\u001b[39m     \u001b[36mconst\u001b[39m results \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m googlePage\u001b[33m.\u001b[39mgetSearchResults()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 45 |\u001b[39m     expect(results\u001b[33m.\u001b[39mlength)\u001b[33m.\u001b[39mtoBeGreaterThan(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                            \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 46 |\u001b[39m     logger\u001b[33m.\u001b[39minfo(\u001b[32m`✓ Search returned ${results.length} results`\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 47 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 48 |\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/aakargupte/playwright-selenium-pom/tests/e2e/smoke/smoke.spec.js",
+                            "column": 28,
+                            "line": 45
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n\n\u001b[0m \u001b[90m 43 |\u001b[39m\n \u001b[90m 44 |\u001b[39m     \u001b[36mconst\u001b[39m results \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m googlePage\u001b[33m.\u001b[39mgetSearchResults()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 45 |\u001b[39m     expect(results\u001b[33m.\u001b[39mlength)\u001b[33m.\u001b[39mtoBeGreaterThan(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                            \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 46 |\u001b[39m     logger\u001b[33m.\u001b[39minfo(\u001b[32m`✓ Search returned ${results.length} results`\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 47 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 48 |\u001b[39m\u001b[0m\n\u001b[2m    at /Users/aakargupte/playwright-selenium-pom/tests/e2e/smoke/smoke.spec.js:45:28\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-15T13:51:52.663Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/aakargupte/playwright-selenium-pom/test-results/e2e-smoke-smoke-DuckDuckGo-44b55-earch-returns-results-smoke-firefox/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/aakargupte/playwright-selenium-pom/test-results/e2e-smoke-smoke-DuckDuckGo-44b55-earch-returns-results-smoke-firefox/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/aakargupte/playwright-selenium-pom/test-results/e2e-smoke-smoke-DuckDuckGo-44b55-earch-returns-results-smoke-firefox/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/aakargupte/playwright-selenium-pom/tests/e2e/smoke/smoke.spec.js",
+                        "column": 28,
+                        "line": 45
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "b8038d4767de92f1cc68-9c4a288adc2833ddbc0d",
+              "file": "e2e/smoke/smoke.spec.js",
+              "line": 40,
+              "column": 3
+            },
+            {
+              "title": "SM004: Result links are clickable @smoke",
+              "ok": true,
+              "tags": [
+                "smoke",
+                "smoke"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 13380,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-15T13:51:56.296Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b8038d4767de92f1cc68-c9af9045d3ffec19f095",
+              "file": "e2e/smoke/smoke.spec.js",
+              "line": 49,
+              "column": 3
+            },
+            {
+              "title": "SM001: Application homepage is accessible @smoke",
+              "ok": true,
+              "tags": [
+                "smoke",
+                "smoke"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4321,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-15T13:52:35.922Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b8038d4767de92f1cc68-5f80f7b1b30625e46b18",
+              "file": "e2e/smoke/smoke.spec.js",
+              "line": 24,
+              "column": 3
+            },
+            {
+              "title": "SM002: Search functionality is operational @smoke",
+              "ok": true,
+              "tags": [
+                "smoke",
+                "smoke"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 11954,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-15T13:52:37.114Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b8038d4767de92f1cc68-9268aebb3148afac2ee4",
+              "file": "e2e/smoke/smoke.spec.js",
+              "line": 31,
+              "column": 3
+            },
+            {
+              "title": "SM003: Search returns results @smoke",
+              "ok": true,
+              "tags": [
+                "smoke",
+                "smoke"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 12,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 15104,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-15T13:52:39.833Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b8038d4767de92f1cc68-f265b86a1de4c9a5197c",
+              "file": "e2e/smoke/smoke.spec.js",
+              "line": 40,
+              "column": 3
+            },
+            {
+              "title": "SM004: Result links are clickable @smoke",
+              "ok": true,
+              "tags": [
+                "smoke",
+                "smoke"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 10871,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-15T13:52:40.254Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b8038d4767de92f1cc68-a508f07a96542bb53f1f",
+              "file": "e2e/smoke/smoke.spec.js",
+              "line": 49,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-02-15T13:51:13.549Z",
+    "duration": 101433.386,
+    "expected": 28,
+    "skipped": 0,
+    "unexpected": 2,
+    "flaky": 0
+  }
+}

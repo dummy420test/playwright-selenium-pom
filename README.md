@@ -1,6 +1,8 @@
-# Playwright + Selenium POM Example
+# Playwright Test Automation Framework
 
-A test automation project using **Playwright** with **Page Object Model (POM)** pattern that automates search functionality on DuckDuckGo.
+[![CI/CD Pipeline](https://github.com/your-repo/workflows/Playwright%20Tests/badge.svg)](https://github.com/your-repo/actions)
+
+A comprehensive, enterprise-grade test automation framework built with **Playwright** using the **Page Object Model (POM)** pattern.
 
 ## 📋 Overview
 

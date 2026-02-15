@@ -1,0 +1,45 @@
+{
+  "validSearchTerms": [
+    {
+      "term": "Playwright Testing",
+      "description": "Popular automation framework",
+      "expectedMinResults": 1
+    },
+    {
+      "term": "JavaScript Automation",
+      "description": "Technology-focused search",
+      "expectedMinResults": 1
+    },
+    {
+      "term": "Web Testing Automated",
+      "description": "General web testing",
+      "expectedMinResults": 1
+    }
+  ],
+  "invalidSearchTerms": [
+    {
+      "term": "!!!@@@###",
+      "description": "Special characters only",
+      "shouldReturnError": false
+    },
+    {
+      "term": "",
+      "description": "Empty search",
+      "shouldReturnError": true
+    }
+  ],
+  "edgeCasesSearchTerms": [
+    {
+      "term": "a",
+      "description": "Single character"
+    },
+    {
+      "term": "123456789",
+      "description": "Numeric only"
+    },
+    {
+      "term": "                ",
+      "description": "Whitespace only"
+    }
+  ]
+}

@@ -1,17 +1,48 @@
 {
   "name": "playwright-selenium-pom",
   "version": "1.0.0",
-  "description": "Playwright project with Selenium libraries using a POM pattern that searches google.com",
+  "description": "Enterprise-grade Playwright test automation framework with Page Object Model pattern using DuckDuckGo",
+  "author": "QA Automation Team",
+  "license": "MIT",
+  "keywords": [
+    "playwright",
+    "automation",
+    "testing",
+    "e2e",
+    "pom",
+    "page-object-model"
+  ],
   "scripts": {
     "test": "npx playwright test",
+    "test:smoke": "npx playwright test --grep @smoke",
+    "test:regression": "npx playwright test --grep @regression",
+    "test:e2e": "npx playwright test tests/e2e",
+    "test:debug": "npx playwright test --debug",
+    "test:ui": "npx playwright test --ui",
+    "test:report": "npx playwright show-report",
     "install-browsers": "npx playwright install",
-    "selenium": "node selenium/selenium_search.js"
+    "install-deps": "npx playwright install --with-deps",
+    "lint": "eslint src tests --max-warnings 0",
+    "lint:fix": "eslint src tests --fix",
+    "format": "prettier --write \"src/**/*.js\" \"tests/**/*.js\" \"config/**/*.js\"",
+    "format:check": "prettier --check \"src/**/*.js\" \"tests/**/*.js\"",
+    "selenium": "node selenium/selenium_search.js",
+    "clean": "rm -rf playwright-report reports test-results node_modules",
+    "ci": "npm run lint && npm run format:check && npm run install-deps && npm run test"
   },
   "devDependencies": {
-    "@playwright/test": "^1.58.2",
-    "chromedriver": "^116.0.0"
+    "@playwright/test": "^1.40.0",
+    "chromedriver": "^116.0.0",
+    "dotenv": "^16.3.1",
+    "eslint": "^8.52.0",
+    "prettier": "^3.0.3"
   },
   "dependencies": {
     "selenium-webdriver": "^4.12.0"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
   }
 }
+

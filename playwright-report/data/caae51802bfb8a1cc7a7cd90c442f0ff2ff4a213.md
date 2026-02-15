@@ -1,0 +1,476 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e6]:
+        - link "DuckDuckGo home" [ref=e7] [cursor=pointer]:
+          - /url: /?t=h_
+          - generic [ref=e9]: DuckDuckGo
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - combobox "search" [ref=e17]: automation
+            - button "search" [ref=e19] [cursor=pointer]:
+              - img [ref=e20]
+          - generic [ref=e23]:
+            - generic:
+              - listbox
+      - navigation [ref=e28]:
+        - list [ref=e29]:
+          - listitem [ref=e30]:
+            - link "All" [ref=e31] [cursor=pointer]:
+              - /url: /?ia=web&origin=funnel_home_website&t=h_&q=automation&chip-select=search
+              - img [ref=e32]
+              - text: All
+          - listitem [ref=e35]:
+            - link "Images" [ref=e36] [cursor=pointer]:
+              - /url: /?ia=images&origin=funnel_home_website&t=h_&q=automation&chip-select=search&iax=images
+          - listitem [ref=e37]:
+            - link "Videos" [ref=e38] [cursor=pointer]:
+              - /url: /?ia=videos&origin=funnel_home_website&t=h_&q=automation&chip-select=search&iax=videos
+          - listitem [ref=e39]:
+            - link "News" [ref=e40] [cursor=pointer]:
+              - /url: /?ia=news&origin=funnel_home_website&t=h_&q=automation&chip-select=search&iar=news
+          - listitem [ref=e41]:
+            - link "Maps" [ref=e42] [cursor=pointer]:
+              - /url: /?origin=funnel_home_website&t=h_&q=automation&chip-select=search&iaxm=maps
+        - list [ref=e43]:
+          - listitem [ref=e44]:
+            - link "Search Assist" [ref=e47] [cursor=pointer]:
+              - /url: /?ia=web&origin=funnel_home_website&t=h_&q=automation&chip-select=search&assist=true
+              - img [ref=e48]
+              - generic [ref=e51]: Search Assist
+          - listitem [ref=e52]:
+            - link "Duck.ai" [ref=e54] [cursor=pointer]:
+              - /url: /?ia=chat&origin=funnel_home_website&t=h_&q=automation&chip-select=search
+              - img [ref=e55]
+              - text: Duck.ai
+          - listitem [ref=e59]:
+            - button "Search Settings ✀" [ref=e61] [cursor=pointer]:
+              - img [ref=e62]
+              - generic [ref=e65]: Search Settings
+              - generic [ref=e68]: ✀
+    - generic [ref=e73]:
+      - navigation [ref=e75]:
+        - generic [ref=e78] [cursor=pointer]:
+          - generic [ref=e86]: Protected
+          - img [ref=e87]: ▼
+        - generic [ref=e91] [cursor=pointer]:
+          - generic [ref=e94]:
+            - switch "✓" [ref=e95]: ✓
+            - generic [ref=e97]: India (en)
+          - img [ref=e98]: ▼
+        - generic [ref=e102] [cursor=pointer]:
+          - generic [ref=e103]: "Safe search: moderate"
+          - img [ref=e104]: ▼
+        - generic [ref=e108] [cursor=pointer]:
+          - generic [ref=e109]: Any time
+          - img [ref=e110]: ▼
+      - generic [ref=e112]:
+        - generic [ref=e113]:
+          - list [ref=e114]:
+            - listitem [ref=e115]:
+              - generic [ref=e118]:
+                - generic [ref=e119]:
+                  - generic [ref=e121]:
+                    - link "More Images" [ref=e122] [cursor=pointer]:
+                      - /url: /?q=Automation%20Control%20systems%20using%20technology%20such%20that%20a%20process%20or%20procedure%20is%20performed%20with%20minimal%20human%20assistance&ia=images&iax=images
+                      - generic:
+                        - img
+                        - generic [ref=e123]: More Images
+                    - link "Automation" [ref=e124] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Automation
+                      - heading "Automation" [level=2] [ref=e125]
+                    - generic [ref=e127]: Control systems using technology such that a process or procedure is performed with minimal human assistance
+                    - generic [ref=e128]:
+                      - generic [ref=e129]: Automation describes a wide range of technologies that reduce human intervention in processes, mainly by predetermining decision criteria, subprocess relationships, and related actions, as well as embodying those predeterminations in machines. Automation has been achieved by various means including mechanical, hydraulic, pneumatic, electrical, electronic devices, and computers, usually in combination ...
+                      - link "Continued in Wikipedia" [ref=e130] [cursor=pointer]:
+                        - /url: https://en.wikipedia.org/wiki/Automation
+                  - img [ref=e133] [cursor=pointer]
+                - generic [ref=e135]:
+                  - generic [ref=e137]:
+                    - text: "Source:"
+                    - link "Wikipedia" [ref=e138] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Automation
+                  - generic [ref=e139]:
+                    - text: •
+                    - generic [ref=e141]:
+                      - text: Was this helpful?
+                      - button "Positive feedback" [ref=e142] [cursor=pointer]:
+                        - img [ref=e143]
+                      - button "Negative feedback" [ref=e146] [cursor=pointer]:
+                        - img [ref=e147]
+            - listitem [ref=e150]:
+              - article [ref=e151] [cursor=pointer]:
+                - button [ref=e153]:
+                  - img [ref=e154]
+                - generic [ref=e158]:
+                  - link "Search domain en.wikipedia.org" [ref=e160]:
+                    - /url: /?q=automation+site:en.wikipedia.org&t=h_
+                    - img [ref=e162]
+                  - generic [ref=e163]:
+                    - paragraph [ref=e164]: Wikipedia
+                    - link "https://en.wikipedia.org › wiki › Automation" [ref=e165]:
+                      - /url: https://en.wikipedia.org/wiki/Automation
+                      - paragraph [ref=e167]:
+                        - generic [ref=e168]: https://en.wikipedia.org
+                        - generic [ref=e169]: › wiki › Automation
+                - heading "Automation - Wikipedia" [level=2] [ref=e171]:
+                  - link "Automation - Wikipedia" [ref=e172]:
+                    - /url: https://en.wikipedia.org/wiki/Automation
+                    - generic [ref=e173]: Automation - Wikipedia
+                - generic [ref=e178]: Automation describes a wide range of technologies that reduce human intervention in processes, mainly by predetermining decision criteria, subprocess relationships, and related actions, as well as embodying those predeterminations in machines. [1][2] Automation has been achieved by various means including mechanical, hydraulic, pneumatic ...
+            - listitem [ref=e179]:
+              - article [ref=e180] [cursor=pointer]:
+                - button [ref=e182]:
+                  - img [ref=e183]
+                - generic [ref=e187]:
+                  - link "Search domain britannica.com" [ref=e189]:
+                    - /url: /?q=automation+site:www.britannica.com&t=h_
+                    - img [ref=e191]
+                  - generic [ref=e192]:
+                    - paragraph [ref=e193]: Britannica
+                    - link "https://www.britannica.com › technology › automation" [ref=e194]:
+                      - /url: https://www.britannica.com/technology/automation
+                      - paragraph [ref=e196]:
+                        - generic [ref=e197]: https://www.britannica.com
+                        - generic [ref=e198]: › technology › automation
+                - heading "Automation | Technology, Types, Rise, History, & Examples - Britannica" [level=2] [ref=e200]:
+                  - link "Automation | Technology, Types, Rise, History, & Examples - Britannica" [ref=e201]:
+                    - /url: https://www.britannica.com/technology/automation
+                    - generic [ref=e202]: Automation | Technology, Types, Rise, History, & Examples - Britannica
+                - generic [ref=e206]:
+                  - text: Jan 31, 2026·
+                  - generic [ref=e207]: Automation, application of machines to tasks once performed by human beings or, increasingly, to tasks that would otherwise be impossible. These machines are concerned with performing a process by means of programmed commands combined with automatic feedback control to ensure proper execution of the instructions.
+                - generic [ref=e209]:
+                  - img [ref=e210]
+                  - generic [ref=e212]: "Author:"
+                  - text: Mikell P. Groover
+            - listitem [ref=e213]:
+              - article [ref=e214] [cursor=pointer]:
+                - button [ref=e216]:
+                  - img [ref=e217]
+                - generic [ref=e221]:
+                  - link "Search domain ibm.com" [ref=e223]:
+                    - /url: /?q=automation+site:www.ibm.com&t=h_
+                    - img [ref=e225]
+                  - generic [ref=e226]:
+                    - paragraph [ref=e227]: IBM
+                    - link "https://www.ibm.com › think › topics › automation" [ref=e228]:
+                      - /url: https://www.ibm.com/think/topics/automation
+                      - paragraph [ref=e230]:
+                        - generic [ref=e231]: https://www.ibm.com
+                        - generic [ref=e232]: › think › topics › automation
+                - heading "What is automation? - IBM" [level=2] [ref=e234]:
+                  - link "What is automation? - IBM" [ref=e235]:
+                    - /url: https://www.ibm.com/think/topics/automation
+                    - generic [ref=e236]: What is automation? - IBM
+                - generic [ref=e241]: Automation is the application of technology, programs, robotics, or processes to achieve outcomes with minimal human input.
+            - listitem [ref=e242]:
+              - article [ref=e243] [cursor=pointer]:
+                - button [ref=e245]:
+                  - img [ref=e246]
+                - generic [ref=e250]:
+                  - link "Search domain automation.com" [ref=e252]:
+                    - /url: /?q=automation+site:www.automation.com&t=h_
+                    - img [ref=e254]
+                  - generic [ref=e255]:
+                    - paragraph [ref=e256]: Automation.com
+                    - link "https://www.automation.com" [ref=e257]:
+                      - /url: https://www.automation.com/
+                      - paragraph [ref=e259]:
+                        - generic [ref=e260]: https://www.automation.com
+                - heading "Automation.com - News, Articles & Resources for Industrial Automation ..." [level=2] [ref=e262]:
+                  - link "Automation.com - News, Articles & Resources for Industrial Automation ..." [ref=e263]:
+                    - /url: https://www.automation.com/
+                    - generic [ref=e264]: Automation.com - News, Articles & Resources for Industrial Automation ...
+                - generic [ref=e269]: ISA provides technical resources and standards to help industrial automation professionals advance their careers and the field. We enable automation professionals worldwide to solve problems and enhance their skills by bringing people together to create new technologies and share best practices with future automation professionals.
+            - listitem [ref=e270]:
+              - article [ref=e271] [cursor=pointer]:
+                - button [ref=e273]:
+                  - img [ref=e274]
+                - generic [ref=e278]:
+                  - link "Search domain spiceworks.com" [ref=e280]:
+                    - /url: /?q=automation+site:www.spiceworks.com&t=h_
+                    - img [ref=e282]
+                  - generic [ref=e283]:
+                    - paragraph [ref=e284]: Spiceworks
+                    - link "https://www.spiceworks.com › soft-tech › what-is-automation" [ref=e285]:
+                      - /url: https://www.spiceworks.com/soft-tech/what-is-automation/
+                      - paragraph [ref=e287]:
+                        - generic [ref=e288]: https://www.spiceworks.com
+                        - generic [ref=e289]: › soft-tech › what-is-automation
+                - heading "What Is Automation? Definition, Types, Benefits, and Importance" [level=2] [ref=e291]:
+                  - link "What Is Automation? Definition, Types, Benefits, and Importance" [ref=e292]:
+                    - /url: https://www.spiceworks.com/soft-tech/what-is-automation/
+                    - generic [ref=e293]: What Is Automation? Definition, Types, Benefits, and Importance
+                - generic [ref=e297]:
+                  - text: Feb 26, 2024·
+                  - generic [ref=e298]: Automation is when machines or systems do tasks by themselves without the need for constant human control. Learn all about automation.
+            - listitem [ref=e299]:
+              - article [ref=e300] [cursor=pointer]:
+                - button [ref=e302]:
+                  - img [ref=e303]
+                - generic [ref=e307]:
+                  - link "Search domain redhat.com" [ref=e309]:
+                    - /url: /?q=automation+site:www.redhat.com&t=h_
+                    - img [ref=e311]
+                  - generic [ref=e312]:
+                    - paragraph [ref=e313]: redhat.com
+                    - link "https://www.redhat.com › en › topics › automation" [ref=e314]:
+                      - /url: https://www.redhat.com/en/topics/automation
+                      - paragraph [ref=e316]:
+                        - generic [ref=e317]: https://www.redhat.com
+                        - generic [ref=e318]: › en › topics › automation
+                - heading "Understanding automation - Red Hat" [level=2] [ref=e320]:
+                  - link "Understanding automation - Red Hat" [ref=e321]:
+                    - /url: https://www.redhat.com/en/topics/automation
+                    - generic [ref=e322]: Understanding automation - Red Hat
+                - generic [ref=e326]:
+                  - text: Jan 29, 2025·
+                  - generic [ref=e327]: Automation is the use of technology to perform tasks with reduced human assistance. Any industry that encounters repetitive tasks can use automation, but automation is more prevalent in the industries of manufacturing, robotics, and automotives, as well as in IT systems.
+            - listitem [ref=e328]:
+              - article [ref=e329] [cursor=pointer]:
+                - button [ref=e331]:
+                  - img [ref=e332]
+                - generic [ref=e336]:
+                  - link "Search domain isa.org" [ref=e338]:
+                    - /url: /?q=automation+site:www.isa.org&t=h_
+                    - img [ref=e340]
+                  - generic [ref=e341]:
+                    - paragraph [ref=e342]: International Society of Automation (ISA)
+                    - link "https://www.isa.org › about-isa › what-is-automation" [ref=e343]:
+                      - /url: https://www.isa.org/about-isa/what-is-automation
+                      - paragraph [ref=e345]:
+                        - generic [ref=e346]: https://www.isa.org
+                        - generic [ref=e347]: › about-isa › what-is-automation
+                - heading "What is Automation? - ISA" [level=2] [ref=e349]:
+                  - link "What is Automation? - ISA" [ref=e350]:
+                    - /url: https://www.isa.org/about-isa/what-is-automation
+                    - generic [ref=e351]: What is Automation? - ISA
+                - generic [ref=e356]: Automation is the creation and application of technology to monitor and control the production and delivery of products and services. Learn how automation professionals are involved in various industries and technologies, and why they are important for innovation, security, and sustainability.
+            - listitem [ref=e357]:
+              - article [ref=e358] [cursor=pointer]:
+                - button [ref=e360]:
+                  - img [ref=e361]
+                - generic [ref=e365]:
+                  - link "Search domain computerhope.com" [ref=e367]:
+                    - /url: /?q=automation+site:www.computerhope.com&t=h_
+                    - img [ref=e369]
+                  - generic [ref=e370]:
+                    - paragraph [ref=e371]: Computer Hope
+                    - link "https://www.computerhope.com › jargon › a › automati.htm" [ref=e372]:
+                      - /url: https://www.computerhope.com/jargon/a/automati.htm
+                      - paragraph [ref=e374]:
+                        - generic [ref=e375]: https://www.computerhope.com
+                        - generic [ref=e376]: › jargon › a › automati.htm
+                - heading "What Is Automation? - Computer Hope" [level=2] [ref=e378]:
+                  - link "What Is Automation? - Computer Hope" [ref=e379]:
+                    - /url: https://www.computerhope.com/jargon/a/automati.htm
+                    - generic [ref=e380]: What Is Automation? - Computer Hope
+                - generic [ref=e384]:
+                  - text: Sep 7, 2025·
+                  - generic [ref=e385]: Learn what automation means in computing and how to use different methods and tools to automate tasks. Find out when and why you should or should not automate, and explore related terms and services.
+            - listitem [ref=e386]:
+              - article [ref=e387] [cursor=pointer]:
+                - button [ref=e389]:
+                  - img [ref=e390]
+                - generic [ref=e394]:
+                  - link "Search domain marketbusinessnews.com" [ref=e396]:
+                    - /url: /?q=automation+site:marketbusinessnews.com&t=h_
+                    - img [ref=e398]
+                  - generic [ref=e399]:
+                    - paragraph [ref=e400]: Market Business News
+                    - link "https://marketbusinessnews.com › financial-glossary › automation-definition-meaning" [ref=e401]:
+                      - /url: https://marketbusinessnews.com/financial-glossary/automation-definition-meaning/
+                      - paragraph [ref=e403]:
+                        - generic [ref=e404]: https://marketbusinessnews.com
+                        - generic [ref=e405]: › financial-glossary › automation-definition-meaning
+                - heading "What is automation? - Definition and examples - Market Business News" [level=2] [ref=e407]:
+                  - link "What is automation? - Definition and examples - Market Business News" [ref=e408]:
+                    - /url: https://marketbusinessnews.com/financial-glossary/automation-definition-meaning/
+                    - generic [ref=e409]: What is automation? - Definition and examples - Market Business News
+                - generic [ref=e414]: Automation is the use of electronics and computer-controlled devices to assume control of processes. Learn how automation affects industries, offices, and society, and see some positive and negative economic impacts of automation.
+            - listitem [ref=e415]:
+              - article [ref=e416] [cursor=pointer]:
+                - button [ref=e418]:
+                  - img [ref=e419]
+                - generic [ref=e423]:
+                  - link "Search domain rockwellautomation.com" [ref=e425]:
+                    - /url: /?q=automation+site:www.rockwellautomation.com&t=h_
+                    - img [ref=e427]
+                  - generic [ref=e428]:
+                    - paragraph [ref=e429]: Rockwell Automation
+                    - link "https://www.rockwellautomation.com › en-us.html" [ref=e430]:
+                      - /url: https://www.rockwellautomation.com/en-us.html
+                      - paragraph [ref=e432]:
+                        - generic [ref=e433]: https://www.rockwellautomation.com
+                        - generic [ref=e434]: › en-us.html
+                - heading "Smart Manufacturing Industrial Automation | Rockwell Automation | US" [level=2] [ref=e436]:
+                  - link "Smart Manufacturing Industrial Automation | Rockwell Automation | US" [ref=e437]:
+                    - /url: https://www.rockwellautomation.com/en-us.html
+                    - generic [ref=e438]: Smart Manufacturing Industrial Automation | Rockwell Automation | US
+                - generic [ref=e443]: Accelerate your shift from automation to autonomy with a clear strategy and real-world examples that empower people, drive innovation, and build more resilient operations. Achieve productivity and sustainability goals with our data-driven solutions.
+            - listitem [ref=e444]
+          - button "More results" [ref=e450] [cursor=pointer]
+        - list [ref=e452]:
+          - listitem [ref=e453]:
+            - generic [ref=e455]:
+              - paragraph [ref=e456]: Searches related to automation
+              - generic [ref=e457]:
+                - list [ref=e458]:
+                  - listitem [ref=e459]:
+                    - link "automation definition" [ref=e460] [cursor=pointer]:
+                      - /url: "?q=automation%20definition&t=h_"
+                      - generic [ref=e462]: automation definition
+                  - listitem [ref=e463]:
+                    - link "5 types of automation" [ref=e464] [cursor=pointer]:
+                      - /url: "?q=5%20types%20of%20automation&t=h_"
+                      - generic [ref=e466]: 5 types of automation
+                  - listitem [ref=e467]:
+                    - link "automatization" [ref=e468] [cursor=pointer]:
+                      - /url: "?q=automatization&t=h_"
+                      - generic [ref=e470]: automatization
+                  - listitem [ref=e471]:
+                    - link "automation examples" [ref=e472] [cursor=pointer]:
+                      - /url: "?q=automation%20examples&t=h_"
+                      - generic [ref=e474]: automation examples
+                - list [ref=e475]:
+                  - listitem [ref=e476]:
+                    - link "define automation" [ref=e477] [cursor=pointer]:
+                      - /url: "?q=define%20automation&t=h_"
+                      - generic [ref=e479]: define automation
+                  - listitem [ref=e480]:
+                    - link "automatization vs automation" [ref=e481] [cursor=pointer]:
+                      - /url: "?q=automatization%20vs%20automation&t=h_"
+                      - generic [ref=e483]: automatization vs automation
+                  - listitem [ref=e484]:
+                    - link "what is automation in business" [ref=e485] [cursor=pointer]:
+                      - /url: "?q=what%20is%20automation%20in%20business&t=h_"
+                      - generic [ref=e487]: what is automation in business
+                  - listitem [ref=e488]:
+                    - link "what does automation mean" [ref=e489] [cursor=pointer]:
+                      - /url: "?q=what%20does%20automation%20mean&t=h_"
+                      - generic [ref=e491]: what does automation mean
+    - list [ref=e493]:
+      - button "Close menu" [ref=e494] [cursor=pointer]:
+        - generic [ref=e495]: Close menu
+        - img [ref=e496]
+      - list [ref=e498]:
+        - listitem [ref=e499]: Search
+        - listitem [ref=e500]:
+          - link "Homepage" [ref=e501] [cursor=pointer]:
+            - /url: https://start.duckduckgo.com/
+        - listitem [ref=e502]:
+          - link "Themes" [ref=e503] [cursor=pointer]:
+            - /url: /settings#appearance
+        - listitem [ref=e504]:
+          - link "Settings" [ref=e505] [cursor=pointer]:
+            - /url: /settings
+      - list [ref=e506]:
+        - listitem [ref=e507]: Share Feedback
+        - listitem [ref=e508]:
+          - generic [ref=e511]:
+            - button "Positive feedback" [ref=e512] [cursor=pointer]:
+              - img [ref=e513]
+            - button "Negative feedback" [ref=e516] [cursor=pointer]:
+              - img [ref=e517]
+      - list [ref=e520]:
+        - listitem [ref=e521]: Downloads
+        - listitem [ref=e522]:
+          - link "iOS Browser" [ref=e523] [cursor=pointer]:
+            - /url: https://apps.apple.com/app/duckduckgo-private-browser/id663592361?platform=iphone&pt=866401&mt=8&ct=serp-atb-serp
+        - listitem [ref=e524]:
+          - link "Android Browser" [ref=e525] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android&referrer=utm_campaign%3Dserp-atb-serp%26origin%3Dfunnel_playstore_searchresults
+        - listitem [ref=e526]:
+          - link "Mac Browser" [ref=e527] [cursor=pointer]:
+            - /url: /mac?origin=funnel_browser_searchresults
+        - listitem [ref=e528]:
+          - link "Windows Browser" [ref=e529] [cursor=pointer]:
+            - /url: /windows?origin=funnel_browser_searchresults
+        - listitem [ref=e530]:
+          - link "Browser Extensions" [ref=e531] [cursor=pointer]:
+            - /url: /duckduckgo-help-pages/desktop/adding-duckduckgo-to-your-browser/
+      - list [ref=e532]:
+        - listitem [ref=e533]: More From DuckDuckGo
+        - listitem [ref=e534]:
+          - link "Duck.ai" [ref=e535] [cursor=pointer]:
+            - /url: https://duck.ai
+        - listitem [ref=e536]:
+          - link "Email Protection" [ref=e537] [cursor=pointer]:
+            - /url: /email
+        - listitem [ref=e538]:
+          - link "Newsletter" [ref=e539] [cursor=pointer]:
+            - /url: /newsletter
+        - listitem [ref=e540]:
+          - link "Blog" [ref=e541] [cursor=pointer]:
+            - /url: /blog
+        - listitem [ref=e542]:
+          - link "Podcast NEW" [ref=e543] [cursor=pointer]:
+            - /url: https://insideduckduckgo.substack.com/?showWelcome=true
+            - text: Podcast
+            - generic [ref=e546]: NEW
+      - list [ref=e547]:
+        - listitem [ref=e548]: Learn More
+        - listitem [ref=e549]:
+          - link "What’s New" [ref=e550] [cursor=pointer]:
+            - /url: /updates
+        - listitem [ref=e551]:
+          - link "Compare Privacy" [ref=e552] [cursor=pointer]:
+            - /url: /compare-privacy
+        - listitem [ref=e553]:
+          - link "About Our Browser" [ref=e554] [cursor=pointer]:
+            - /url: /app
+        - listitem [ref=e555]:
+          - link "About DuckDuckGo" [ref=e556] [cursor=pointer]:
+            - /url: /about
+      - list [ref=e557]:
+        - listitem [ref=e558]: Other Resources
+        - listitem [ref=e559]:
+          - link "Help" [ref=e560] [cursor=pointer]:
+            - /url: /duckduckgo-help-pages
+        - listitem [ref=e561]:
+          - link "Community" [ref=e562] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/duckduckgo/
+        - listitem [ref=e563]:
+          - link "Careers" [ref=e564] [cursor=pointer]:
+            - /url: /careers
+        - listitem [ref=e565]:
+          - link "Privacy Policy" [ref=e566] [cursor=pointer]:
+            - /url: /privacy
+        - listitem [ref=e567]:
+          - link "Terms of Service" [ref=e568] [cursor=pointer]:
+            - /url: /terms
+        - listitem [ref=e569]:
+          - link "Press Kit" [ref=e570] [cursor=pointer]:
+            - /url: /press
+        - listitem [ref=e571]:
+          - link "Advertise on Search" [ref=e572] [cursor=pointer]:
+            - /url: /duckduckgo-help-pages/company/advertise-on-duckduckgo-search
+    - generic [ref=e573] [cursor=pointer]:
+      - link "Take control of your personal data! Your DuckDuckGo search history is private We stop anyone from getting your search history, including us. Add our extension to help protect personal data We'll block trackers trying to collect your data as you browse. Add DuckDuckGo Extension ×" [ref=e574]:
+        - /url: https://addons.mozilla.org/firefox/downloads/latest/duckduckgo-for-firefox/addon-385621-latest.xpi
+        - img [ref=e576]
+        - paragraph [ref=e577]: Take control of your personal data!
+        - generic [ref=e579]:
+          - text: Your DuckDuckGo search history is private
+          - paragraph [ref=e580]: We stop anyone from getting your search history, including us.
+        - generic [ref=e581]:
+          - generic [ref=e583]:
+            - text: Add our extension to help protect personal data
+            - paragraph [ref=e584]: We'll block trackers trying to collect your data as you browse.
+          - generic [ref=e585]: Add DuckDuckGo Extension
+        - generic [ref=e586]: ×
+      - link "Learn More at Firefox Add-Ons" [ref=e588]:
+        - /url: https://addons.mozilla.org/firefox/addon/duckduckgo-for-firefox/
+  - generic [ref=e594]:
+    - img [ref=e595]
+    - generic [ref=e605]:
+      - heading "See What’s DuckDuckNew" [level=3] [ref=e606]
+      - paragraph [ref=e607]: Explore DuckDuckGo’s latest product updates.
+    - link "Learn More" [ref=e608] [cursor=pointer]:
+      - /url: https://duckduckgo.com/updates
+  - button "Share Feedback" [ref=e613] [cursor=pointer]
+```

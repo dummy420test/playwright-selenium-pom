@@ -1,0 +1,484 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e6]:
+        - link "DuckDuckGo home" [ref=e7] [cursor=pointer]:
+          - /url: /?t=h_
+          - generic [ref=e9]: DuckDuckGo
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - combobox "search" [ref=e17]: Playwright JavaScript Testing
+            - button "search" [ref=e19] [cursor=pointer]:
+              - img [ref=e20]
+          - generic [ref=e23]:
+            - generic:
+              - listbox
+      - navigation [ref=e28]:
+        - list [ref=e29]:
+          - listitem [ref=e30]:
+            - link "All" [ref=e31] [cursor=pointer]:
+              - /url: /?ia=web&origin=funnel_home_website&t=h_&q=Playwright+JavaScript+Testing&chip-select=search
+              - img [ref=e32]
+              - text: All
+          - listitem [ref=e35]:
+            - link "Images" [ref=e36] [cursor=pointer]:
+              - /url: /?ia=images&origin=funnel_home_website&t=h_&q=Playwright+JavaScript+Testing&chip-select=search&iax=images
+          - listitem [ref=e37]:
+            - link "Videos" [ref=e38] [cursor=pointer]:
+              - /url: /?ia=videos&origin=funnel_home_website&t=h_&q=Playwright+JavaScript+Testing&chip-select=search&iax=videos
+          - listitem [ref=e39]:
+            - link "News" [ref=e40] [cursor=pointer]:
+              - /url: /?ia=news&origin=funnel_home_website&t=h_&q=Playwright+JavaScript+Testing&chip-select=search&iar=news
+          - listitem [ref=e41]:
+            - link "Maps" [ref=e42] [cursor=pointer]:
+              - /url: /?origin=funnel_home_website&t=h_&q=Playwright+JavaScript+Testing&chip-select=search&iaxm=maps
+        - list [ref=e43]:
+          - listitem [ref=e44]:
+            - link "Search Assist" [ref=e47] [cursor=pointer]:
+              - /url: /?ia=web&origin=funnel_home_website&t=h_&q=Playwright+JavaScript+Testing&chip-select=search&assist=true
+              - img [ref=e48]
+              - generic [ref=e51]: Search Assist
+          - listitem [ref=e52]:
+            - link "Duck.ai" [ref=e54] [cursor=pointer]:
+              - /url: /?ia=chat&origin=funnel_home_website&t=h_&q=Playwright+JavaScript+Testing&chip-select=search
+              - img [ref=e55]
+              - text: Duck.ai
+          - listitem [ref=e59]:
+            - button "Search Settings ✀" [ref=e61] [cursor=pointer]:
+              - img [ref=e62]
+              - generic [ref=e65]: Search Settings
+              - generic [ref=e68]: ✀
+    - generic [ref=e73]:
+      - navigation [ref=e75]:
+        - generic [ref=e78] [cursor=pointer]:
+          - generic [ref=e86]: Protected
+          - img [ref=e87]: ▼
+        - generic [ref=e91] [cursor=pointer]:
+          - generic [ref=e94]:
+            - switch "✓" [ref=e95]: ✓
+            - generic [ref=e97]: India (en)
+          - img [ref=e98]: ▼
+        - generic [ref=e102] [cursor=pointer]:
+          - generic [ref=e103]: "Safe search: moderate"
+          - img [ref=e104]: ▼
+        - generic [ref=e108] [cursor=pointer]:
+          - generic [ref=e109]: Any time
+          - img [ref=e110]: ▼
+      - generic [ref=e113]:
+        - list [ref=e114]:
+          - listitem [ref=e115]
+          - listitem [ref=e119]:
+            - article [ref=e120] [cursor=pointer]:
+              - button [ref=e122]:
+                - img [ref=e123]
+              - generic [ref=e127]:
+                - link "Search domain playwright.dev" [ref=e129]:
+                  - /url: /?q=Playwright%20JavaScript%20Testing+site:playwright.dev&t=h_
+                  - img [ref=e131]
+                - generic [ref=e132]:
+                  - paragraph [ref=e133]: Playwright
+                  - link "https://playwright.dev" [ref=e134]:
+                    - /url: https://playwright.dev/
+                    - paragraph [ref=e136]:
+                      - generic [ref=e137]: https://playwright.dev
+              - heading "Fast and reliable end-to-end testing for modern web apps | Playwright" [level=2] [ref=e139]:
+                - link "Fast and reliable end-to-end testing for modern web apps | Playwright" [ref=e140]:
+                  - /url: https://playwright.dev/
+                  - generic [ref=e141]: Fast and reliable end-to-end testing for modern web apps | Playwright
+              - generic [ref=e146]: Cross-browser. Playwright supports all modern rendering engines including Chromium, WebKit, and Firefox. Cross-platform. Test on Windows, Linux, and macOS, locally or on CI, headless or headed. Cross-language. Use the Playwright API in TypeScript, JavaScript, Python, .NET, Java. Test Mobile Web. Native mobile emulation of Google Chrome for Android and Mobile Safari. The same rendering engine ...
+              - list [ref=e149]:
+                - listitem [ref=e150]:
+                  - 'link "Installation Run a single project/browser: --project=chromium. Run one file: npx playwright test tests/example.spec.ts. Open testing UI: --ui. See Running Tests for details on filtering, headed mode, sharding and retries. HTML Test Reports After a test run, the HTML Reporter provides a dashboard filterable by the browser, passed, failed, skipped, flaky and more." [ref=e151]':
+                    - /url: https://playwright.dev/docs/intro
+                    - heading "Installation" [level=3] [ref=e152]
+                    - paragraph [ref=e153]:
+                      - generic [ref=e154]: "Run a single project/browser: --project=chromium. Run one file: npx playwright test tests/example.spec.ts. Open testing UI: --ui. See Running Tests for details on filtering, headed mode, sharding and retries. HTML Test Reports After a test run, the HTML Reporter provides a dashboard filterable by the browser, passed, failed, skipped, flaky and more."
+                - listitem [ref=e155]:
+                  - link "Python Python - Fast and reliable end-to-end testing for modern web apps | Playwright" [ref=e156]:
+                    - /url: https://playwright.dev/python/
+                    - heading "Python" [level=3] [ref=e157]
+                    - paragraph [ref=e158]:
+                      - generic [ref=e159]: Python - Fast and reliable end-to-end testing for modern web apps | Playwright
+                - listitem [ref=e160]:
+                  - link "Codegen Test generator Introduction Playwright comes with the ability to generate tests for you as you perform actions in the browser and is a great way to quickly get started with testing. Playwright will look at your page and figure out the best locator, prioritizing role, text and test id locators. If the generator finds multiple elements matching the locator, it will improve the locator to make it ..." [ref=e161]:
+                    - /url: https://playwright.dev/docs/codegen
+                    - heading "Codegen" [level=3] [ref=e162]
+                    - paragraph [ref=e163]:
+                      - generic [ref=e164]: Test generator Introduction Playwright comes with the ability to generate tests for you as you perform actions in the browser and is a great way to quickly get started with testing. Playwright will look at your page and figure out the best locator, prioritizing role, text and test id locators. If the generator finds multiple elements matching the locator, it will improve the locator to make it ...
+                - listitem [ref=e165]:
+                  - link "Trace Viewer Trace viewer Introduction Playwright Trace Viewer is a GUI tool that lets you explore recorded Playwright traces of your tests, meaning you can go back and forward through each action of your test and visually see what was happening during each action. You will learn How to record a trace How to open the HTML report How to open and view the trace" [ref=e166]:
+                    - /url: https://playwright.dev/docs/trace-viewer-intro
+                    - heading "Trace Viewer" [level=3] [ref=e167]
+                    - paragraph [ref=e168]:
+                      - generic [ref=e169]: Trace viewer Introduction Playwright Trace Viewer is a GUI tool that lets you explore recorded Playwright traces of your tests, meaning you can go back and forward through each action of your test and visually see what was happening during each action. You will learn How to record a trace How to open the HTML report How to open and view the trace
+                - listitem [ref=e170]:
+                  - link "Vs Code Getting started - VS Code Introduction The Playwright VS Code extension brings the power of Playwright Test directly into your editor, allowing you to run, debug, and generate tests with a seamless UI-driven experience. This guide will walk you through setting up the extension and using its core features to supercharge your end-to-end testing workflow." [ref=e171]:
+                    - /url: https://playwright.dev/docs/getting-started-vscode
+                    - heading "Vs Code" [level=3] [ref=e172]
+                    - paragraph [ref=e173]:
+                      - generic [ref=e174]: Getting started - VS Code Introduction The Playwright VS Code extension brings the power of Playwright Test directly into your editor, allowing you to run, debug, and generate tests with a seamless UI-driven experience. This guide will walk you through setting up the extension and using its core features to supercharge your end-to-end testing workflow.
+                - listitem [ref=e175]:
+                  - link "API Playwright module provides a method to launch a browser instance. The following is a typical example of using Playwright to drive automation:" [ref=e176]:
+                    - /url: https://playwright.dev/docs/api/class-playwright
+                    - heading "API" [level=3] [ref=e177]
+                    - paragraph [ref=e178]:
+                      - generic [ref=e179]: "Playwright module provides a method to launch a browser instance. The following is a typical example of using Playwright to drive automation:"
+          - listitem [ref=e180]:
+            - article [ref=e181] [cursor=pointer]:
+              - button [ref=e183]:
+                - img [ref=e184]
+              - generic [ref=e188]:
+                - link "Search domain browserstack.com" [ref=e190]:
+                  - /url: /?q=Playwright%20JavaScript%20Testing+site:www.browserstack.com&t=h_
+                  - img [ref=e192]
+                - generic [ref=e193]:
+                  - paragraph [ref=e194]: BrowserStack
+                  - link "https://www.browserstack.com › guide › playwright-with-javascript" [ref=e195]:
+                    - /url: https://www.browserstack.com/guide/playwright-with-javascript
+                    - paragraph [ref=e197]:
+                      - generic [ref=e198]: https://www.browserstack.com
+                      - generic [ref=e199]: › guide › playwright-with-javascript
+              - 'heading "Playwright JavaScript: Everything you need to know in 2026" [level=2] [ref=e201]':
+                - 'link "Playwright JavaScript: Everything you need to know in 2026" [ref=e202]':
+                  - /url: https://www.browserstack.com/guide/playwright-with-javascript
+                  - generic [ref=e203]: "Playwright JavaScript: Everything you need to know in 2026"
+              - generic [ref=e207]:
+                - text: Nov 17, 2025·
+                - generic [ref=e208]: Playwright has become a leading choice for modern JavaScript testing, offering speed, reliability, and powerful cross-browser automation. By 2026, it continues to evolve with smarter locators, AI assistance, and improved performance for large-scale testing.
+          - listitem [ref=e209]:
+            - article [ref=e210] [cursor=pointer]:
+              - button [ref=e212]:
+                - img [ref=e213]
+              - generic [ref=e217]:
+                - link "Search domain github.com" [ref=e219]:
+                  - /url: /?q=Playwright%20JavaScript%20Testing+site:github.com&t=h_
+                  - img [ref=e221]
+                - generic [ref=e222]:
+                  - paragraph [ref=e223]: Github
+                  - link "https://github.com › microsoft › playwright" [ref=e224]:
+                    - /url: https://github.com/microsoft/playwright
+                    - paragraph [ref=e226]:
+                      - generic [ref=e227]: https://github.com
+                      - generic [ref=e228]: › microsoft › playwright
+              - 'heading "GitHub - microsoft/playwright: Playwright is a framework for Web ..." [level=2] [ref=e230]':
+                - 'link "GitHub - microsoft/playwright: Playwright is a framework for Web ..." [ref=e231]':
+                  - /url: https://github.com/microsoft/playwright
+                  - generic [ref=e232]: "GitHub - microsoft/playwright: Playwright is a framework for Web ..."
+              - generic [ref=e237]: Playwright is a framework for Web Testing and Automation. It allows testing Chromium 1, Firefox and WebKit with a single API. Playwright is built to enable cross-browser web automation that is ever-green, capable, reliable, and fast.
+          - listitem [ref=e238]:
+            - article [ref=e239] [cursor=pointer]:
+              - button [ref=e241]:
+                - img [ref=e242]
+              - generic [ref=e246]:
+                - link "Search domain medium.com" [ref=e248]:
+                  - /url: /?q=Playwright%20JavaScript%20Testing+site:medium.com&t=h_
+                  - img [ref=e250]
+                - generic [ref=e251]:
+                  - paragraph [ref=e252]: Medium
+                  - link "https://medium.com › @patnaikgaurav61 › building-a-scalable-playwright-automation-test-framework-in-javascript-20ff52121fe0" [ref=e253]:
+                    - /url: https://medium.com/@patnaikgaurav61/building-a-scalable-playwright-automation-test-framework-in-javascript-20ff52121fe0
+                    - paragraph [ref=e255]:
+                      - generic [ref=e256]: https://medium.com
+                      - generic [ref=e257]: › @patnaikgaurav61 › building-a-scalable-playwright-automation-test-framework-in-javascript-20ff52121fe0
+              - heading "Building a Scalable Playwright Automation Test Framework in JavaScript" [level=2] [ref=e259]:
+                - link "Building a Scalable Playwright Automation Test Framework in JavaScript" [ref=e260]:
+                  - /url: https://medium.com/@patnaikgaurav61/building-a-scalable-playwright-automation-test-framework-in-javascript-20ff52121fe0
+                  - generic [ref=e261]: Building a Scalable Playwright Automation Test Framework in JavaScript
+              - generic [ref=e265]:
+                - text: Oct 4, 2025·
+                - generic [ref=e266]: Building a Scalable Playwright Automation Test Framework in JavaScript 1. Introduction Modern web applications are dynamic, complex, and demand fast, reliable, and cross-browser automation …
+          - listitem [ref=e267]:
+            - article [ref=e268] [cursor=pointer]:
+              - button [ref=e270]:
+                - img [ref=e271]
+              - generic [ref=e275]:
+                - link "Search domain developer.microsoft.com" [ref=e277]:
+                  - /url: /?q=Playwright%20JavaScript%20Testing+site:developer.microsoft.com&t=h_
+                  - img [ref=e279]
+                - generic [ref=e280]:
+                  - paragraph [ref=e281]: Microsoft Developer
+                  - link "https://developer.microsoft.com › blog › the-complete-playwright-end-to-end-story-tools-ai-and-real-world-workflows" [ref=e282]:
+                    - /url: https://developer.microsoft.com/blog/the-complete-playwright-end-to-end-story-tools-ai-and-real-world-workflows
+                    - paragraph [ref=e284]:
+                      - generic [ref=e285]: https://developer.microsoft.com
+                      - generic [ref=e286]: › blog › the-complete-playwright-end-to-end-story-tools-ai-and-real-world-workflows
+              - heading "The Complete Playwright End-to-End Story, Tools, AI, and Real-World ..." [level=2] [ref=e288]:
+                - link "The Complete Playwright End-to-End Story, Tools, AI, and Real-World ..." [ref=e289]:
+                  - /url: https://developer.microsoft.com/blog/the-complete-playwright-end-to-end-story-tools-ai-and-real-world-workflows
+                  - generic [ref=e290]: The Complete Playwright End-to-End Story, Tools, AI, and Real-World ...
+              - generic [ref=e294]:
+                - text: Aug 7, 2025·
+                - generic [ref=e295]: 1. Introduction End-to-end testing has evolved dramatically, and Playwright stands at the forefront. Playwright offers a full ecosystem empowering developers to write, debug, and maintain tests with speed and reliability. From its powerful test runner to rich developer tools like the VS Code extension, Codegen, UI Mode, and Trace Viewer, Playwright covers every phase of […]
+          - listitem [ref=e296]:
+            - article [ref=e297] [cursor=pointer]:
+              - button [ref=e299]:
+                - img [ref=e300]
+              - generic [ref=e304]:
+                - link "Search domain automationtestinghub.com" [ref=e306]:
+                  - /url: /?q=Playwright%20JavaScript%20Testing+site:www.automationtestinghub.com&t=h_
+                  - img [ref=e308]
+                - generic [ref=e309]:
+                  - paragraph [ref=e310]: AutomationTestingHub
+                  - link "https://www.automationtestinghub.com › playwright-automation-testing-tutorial" [ref=e311]:
+                    - /url: https://www.automationtestinghub.com/playwright-automation-testing-tutorial/
+                    - paragraph [ref=e313]:
+                      - generic [ref=e314]: https://www.automationtestinghub.com
+                      - generic [ref=e315]: › playwright-automation-testing-tutorial
+              - heading "Playwright Automation Testing Tutorial - AutomationTestingHub" [level=2] [ref=e317]:
+                - link "Playwright Automation Testing Tutorial - AutomationTestingHub" [ref=e318]:
+                  - /url: https://www.automationtestinghub.com/playwright-automation-testing-tutorial/
+                  - generic [ref=e319]: Playwright Automation Testing Tutorial - AutomationTestingHub
+              - generic [ref=e323]:
+                - text: Jan 22, 2026·
+                - generic [ref=e324]: Playwright is a modern end-to-end automation testing framework built for fast, reliable, and scalable web testing. It is widely used by teams that need consistent cross-browser test execution, strong CI/CD integration, and minimal test flakiness. In this Playwright automation testing tutorial, you will learn how to install Playwright, understand its core concepts, and write your first real ...
+          - listitem [ref=e325]:
+            - article [ref=e326] [cursor=pointer]:
+              - button [ref=e328]:
+                - img [ref=e329]
+              - generic [ref=e333]:
+                - link "Search domain dev.to" [ref=e335]:
+                  - /url: /?q=Playwright%20JavaScript%20Testing+site:dev.to&t=h_
+                  - img [ref=e337]
+                - generic [ref=e338]:
+                  - paragraph [ref=e339]: DEV Community
+                  - link "https://dev.to › patoliyainfotech › end-to-end-testing-javascript-apps-using-playwright-56g9" [ref=e340]:
+                    - /url: https://dev.to/patoliyainfotech/end-to-end-testing-javascript-apps-using-playwright-56g9
+                    - paragraph [ref=e342]:
+                      - generic [ref=e343]: https://dev.to
+                      - generic [ref=e344]: › patoliyainfotech › end-to-end-testing-javascript-apps-using-playwright-56g9
+              - heading "End-to-End Testing JavaScript Apps Using Playwright" [level=2] [ref=e346]:
+                - link "End-to-End Testing JavaScript Apps Using Playwright" [ref=e347]:
+                  - /url: https://dev.to/patoliyainfotech/end-to-end-testing-javascript-apps-using-playwright-56g9
+                  - generic [ref=e348]: End-to-End Testing JavaScript Apps Using Playwright
+              - generic [ref=e352]:
+                - text: Aug 27, 2025·
+                - generic [ref=e353]: Playwright is more than simply a testing tool; it is a Complete testing framework suited for today's complicated JavaScript applications. Playwright enables teams to confidently develop high-quality products by providing blazing-fast execution, multi-browser compatibility, and strong debugging facilities.
+          - listitem [ref=e354]:
+            - article [ref=e355] [cursor=pointer]:
+              - button [ref=e357]:
+                - img [ref=e358]
+              - generic [ref=e362]:
+                - link "Search domain testautomationstudio.com" [ref=e364]:
+                  - /url: /?q=Playwright%20JavaScript%20Testing+site:www.testautomationstudio.com&t=h_
+                  - img [ref=e366]
+                - generic [ref=e367]:
+                  - paragraph [ref=e368]: testautomationstudio.com
+                  - link "https://www.testautomationstudio.com › blog › playwright › writing-your-first-end-to-end-test-with-playwright" [ref=e369]:
+                    - /url: https://www.testautomationstudio.com/blog/playwright/writing-your-first-end-to-end-test-with-playwright/
+                    - paragraph [ref=e371]:
+                      - generic [ref=e372]: https://www.testautomationstudio.com
+                      - generic [ref=e373]: › blog › playwright › writing-your-first-end-to-end-test-with-playwright
+              - heading "Writing your first end-to-end test with Playwright" [level=2] [ref=e375]:
+                - link "Writing your first end-to-end test with Playwright" [ref=e376]:
+                  - /url: https://www.testautomationstudio.com/blog/playwright/writing-your-first-end-to-end-test-with-playwright/
+                  - generic [ref=e377]: Writing your first end-to-end test with Playwright
+              - generic [ref=e381]:
+                - text: Apr 8, 2025·
+                - generic [ref=e382]: A beginner-friendly guide to writing your first end-to-end test using Playwright. Learn setup, browser automation, and test execution with simple examples.
+          - listitem [ref=e383]:
+            - article [ref=e384] [cursor=pointer]:
+              - button [ref=e386]:
+                - img [ref=e387]
+              - generic [ref=e391]:
+                - link "Search domain geekyants.com" [ref=e393]:
+                  - /url: /?q=Playwright%20JavaScript%20Testing+site:geekyants.com&t=h_
+                  - img [ref=e395]
+                - generic [ref=e396]:
+                  - paragraph [ref=e397]: GeekyAnts
+                  - link "https://geekyants.com › blog › automation-testing-with-playwright-using-javascript" [ref=e398]:
+                    - /url: https://geekyants.com/blog/automation-testing-with-playwright-using-javascript
+                    - paragraph [ref=e400]:
+                      - generic [ref=e401]: https://geekyants.com
+                      - generic [ref=e402]: › blog › automation-testing-with-playwright-using-javascript
+              - heading "Automation Testing With Playwright Using JavaScript" [level=2] [ref=e404]:
+                - link "Automation Testing With Playwright Using JavaScript" [ref=e405]:
+                  - /url: https://geekyants.com/blog/automation-testing-with-playwright-using-javascript
+                  - generic [ref=e406]: Automation Testing With Playwright Using JavaScript
+              - generic [ref=e410]:
+                - text: Sep 5, 2024·
+                - generic [ref=e411]: Learn how to set up automation testing in a Next.js application using Playwright. This comprehensive guide covers everything from installation to writing tests, API testing, and integrating with CI pipelines, ensuring robust software quality and performance.
+          - listitem [ref=e412]:
+            - article [ref=e413] [cursor=pointer]:
+              - button [ref=e415]:
+                - img [ref=e416]
+              - generic [ref=e420]:
+                - link "Search domain browserstack.com" [ref=e422]:
+                  - /url: /?q=Playwright%20JavaScript%20Testing+site:www.browserstack.com&t=h_
+                  - img [ref=e424]
+                - generic [ref=e425]:
+                  - paragraph [ref=e426]: BrowserStack
+                  - link "https://www.browserstack.com › guide › playwright-tutorial" [ref=e427]:
+                    - /url: https://www.browserstack.com/guide/playwright-tutorial
+                    - paragraph [ref=e429]:
+                      - generic [ref=e430]: https://www.browserstack.com
+                      - generic [ref=e431]: › guide › playwright-tutorial
+              - 'heading "Playwright Automation Framework: Tutorial [2026] - BrowserStack" [level=2] [ref=e433]':
+                - 'link "Playwright Automation Framework: Tutorial [2026] - BrowserStack" [ref=e434]':
+                  - /url: https://www.browserstack.com/guide/playwright-tutorial
+                  - generic [ref=e435]: "Playwright Automation Framework: Tutorial [2026] - BrowserStack"
+              - generic [ref=e439]:
+                - text: Jan 15, 2026·
+                - generic [ref=e440]: Learn the basics of Playwright automation, features, setup, and installation steps to conduct Playwright testing along with benefits and examples.
+          - listitem [ref=e441]:
+            - generic [ref=e443]:
+              - paragraph [ref=e444]: Searches related to Playwright JavaScript Testing
+              - generic [ref=e445]:
+                - list [ref=e446]:
+                  - listitem [ref=e447]:
+                    - link "playwright test generator" [ref=e448] [cursor=pointer]:
+                      - /url: "?q=playwright%20test%20generator&t=h_"
+                      - generic [ref=e450]: playwright test generator
+                  - listitem [ref=e451]:
+                    - link "playwright test log" [ref=e452] [cursor=pointer]:
+                      - /url: "?q=playwright%20test%20log&t=h_"
+                      - generic [ref=e454]: playwright test log
+                  - listitem [ref=e455]:
+                    - link "end to testing using playwright" [ref=e456] [cursor=pointer]:
+                      - /url: "?q=end%20to%20testing%20using%20playwright&t=h_"
+                      - generic [ref=e458]: end to testing using playwright
+                  - listitem [ref=e459]:
+                    - link "playwright automated testing tool" [ref=e460] [cursor=pointer]:
+                      - /url: "?q=playwright%20automated%20testing%20tool&t=h_"
+                      - generic [ref=e462]: playwright automated testing tool
+                - list [ref=e463]:
+                  - listitem [ref=e464]:
+                    - link "playwright automation testing tool" [ref=e465] [cursor=pointer]:
+                      - /url: "?q=playwright%20automation%20testing%20tool&t=h_"
+                      - generic [ref=e467]: playwright automation testing tool
+                  - listitem [ref=e468]:
+                    - link "playwright js tutorial" [ref=e469] [cursor=pointer]:
+                      - /url: "?q=playwright%20js%20tutorial&t=h_"
+                      - generic [ref=e471]: playwright js tutorial
+                  - listitem [ref=e472]:
+                    - link "playwright testing tutorial" [ref=e473] [cursor=pointer]:
+                      - /url: "?q=playwright%20testing%20tutorial&t=h_"
+                      - generic [ref=e475]: playwright testing tutorial
+                  - listitem [ref=e476]:
+                    - link "playwright testing tool" [ref=e477] [cursor=pointer]:
+                      - /url: "?q=playwright%20testing%20tool&t=h_"
+                      - generic [ref=e479]: playwright testing tool
+        - button "More results" [ref=e482] [cursor=pointer]
+    - list [ref=e485]:
+      - button "Close menu" [ref=e486] [cursor=pointer]:
+        - generic [ref=e487]: Close menu
+        - img [ref=e488]
+      - list [ref=e490]:
+        - listitem [ref=e491]: Search
+        - listitem [ref=e492]:
+          - link "Homepage" [ref=e493] [cursor=pointer]:
+            - /url: https://start.duckduckgo.com/
+        - listitem [ref=e494]:
+          - link "Themes" [ref=e495] [cursor=pointer]:
+            - /url: /settings#appearance
+        - listitem [ref=e496]:
+          - link "Settings" [ref=e497] [cursor=pointer]:
+            - /url: /settings
+      - list [ref=e498]:
+        - listitem [ref=e499]: Share Feedback
+        - listitem [ref=e500]:
+          - generic [ref=e503]:
+            - button "Positive feedback" [ref=e504] [cursor=pointer]:
+              - img [ref=e505]
+            - button "Negative feedback" [ref=e508] [cursor=pointer]:
+              - img [ref=e509]
+      - list [ref=e512]:
+        - listitem [ref=e513]: Downloads
+        - listitem [ref=e514]:
+          - link "iOS Browser" [ref=e515] [cursor=pointer]:
+            - /url: https://apps.apple.com/app/duckduckgo-private-browser/id663592361?platform=iphone&pt=866401&mt=8&ct=serp-atb-serp
+        - listitem [ref=e516]:
+          - link "Android Browser" [ref=e517] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android&referrer=utm_campaign%3Dserp-atb-serp%26origin%3Dfunnel_playstore_searchresults
+        - listitem [ref=e518]:
+          - link "Mac Browser" [ref=e519] [cursor=pointer]:
+            - /url: /mac?origin=funnel_browser_searchresults
+        - listitem [ref=e520]:
+          - link "Windows Browser" [ref=e521] [cursor=pointer]:
+            - /url: /windows?origin=funnel_browser_searchresults
+        - listitem [ref=e522]:
+          - link "Browser Extensions" [ref=e523] [cursor=pointer]:
+            - /url: /duckduckgo-help-pages/desktop/adding-duckduckgo-to-your-browser/
+      - list [ref=e524]:
+        - listitem [ref=e525]: More From DuckDuckGo
+        - listitem [ref=e526]:
+          - link "Duck.ai" [ref=e527] [cursor=pointer]:
+            - /url: https://duck.ai
+        - listitem [ref=e528]:
+          - link "Email Protection" [ref=e529] [cursor=pointer]:
+            - /url: /email
+        - listitem [ref=e530]:
+          - link "Newsletter" [ref=e531] [cursor=pointer]:
+            - /url: /newsletter
+        - listitem [ref=e532]:
+          - link "Blog" [ref=e533] [cursor=pointer]:
+            - /url: /blog
+        - listitem [ref=e534]:
+          - link "Podcast NEW" [ref=e535] [cursor=pointer]:
+            - /url: https://insideduckduckgo.substack.com/?showWelcome=true
+            - text: Podcast
+            - generic [ref=e538]: NEW
+      - list [ref=e539]:
+        - listitem [ref=e540]: Learn More
+        - listitem [ref=e541]:
+          - link "What’s New" [ref=e542] [cursor=pointer]:
+            - /url: /updates
+        - listitem [ref=e543]:
+          - link "Compare Privacy" [ref=e544] [cursor=pointer]:
+            - /url: /compare-privacy
+        - listitem [ref=e545]:
+          - link "About Our Browser" [ref=e546] [cursor=pointer]:
+            - /url: /app
+        - listitem [ref=e547]:
+          - link "About DuckDuckGo" [ref=e548] [cursor=pointer]:
+            - /url: /about
+      - list [ref=e549]:
+        - listitem [ref=e550]: Other Resources
+        - listitem [ref=e551]:
+          - link "Help" [ref=e552] [cursor=pointer]:
+            - /url: /duckduckgo-help-pages
+        - listitem [ref=e553]:
+          - link "Community" [ref=e554] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/duckduckgo/
+        - listitem [ref=e555]:
+          - link "Careers" [ref=e556] [cursor=pointer]:
+            - /url: /careers
+        - listitem [ref=e557]:
+          - link "Privacy Policy" [ref=e558] [cursor=pointer]:
+            - /url: /privacy
+        - listitem [ref=e559]:
+          - link "Terms of Service" [ref=e560] [cursor=pointer]:
+            - /url: /terms
+        - listitem [ref=e561]:
+          - link "Press Kit" [ref=e562] [cursor=pointer]:
+            - /url: /press
+        - listitem [ref=e563]:
+          - link "Advertise on Search" [ref=e564] [cursor=pointer]:
+            - /url: /duckduckgo-help-pages/company/advertise-on-duckduckgo-search
+    - generic [ref=e565] [cursor=pointer]:
+      - link "Take control of your personal data! Your DuckDuckGo search history is private We stop anyone from getting your search history, including us. Add our extension to help protect personal data We'll block trackers trying to collect your data as you browse. Add DuckDuckGo Extension ×" [ref=e566]:
+        - /url: https://addons.mozilla.org/firefox/downloads/latest/duckduckgo-for-firefox/addon-385621-latest.xpi
+        - img [ref=e568]
+        - paragraph [ref=e569]: Take control of your personal data!
+        - generic [ref=e571]:
+          - text: Your DuckDuckGo search history is private
+          - paragraph [ref=e572]: We stop anyone from getting your search history, including us.
+        - generic [ref=e573]:
+          - generic [ref=e575]:
+            - text: Add our extension to help protect personal data
+            - paragraph [ref=e576]: We'll block trackers trying to collect your data as you browse.
+          - generic [ref=e577]: Add DuckDuckGo Extension
+        - generic [ref=e578]: ×
+      - link "Learn More at Firefox Add-Ons" [ref=e580]:
+        - /url: https://addons.mozilla.org/firefox/addon/duckduckgo-for-firefox/
+  - generic [ref=e586]:
+    - img [ref=e587]
+    - generic [ref=e597]:
+      - heading "See What’s DuckDuckNew" [level=3] [ref=e598]
+      - paragraph [ref=e599]: Explore DuckDuckGo’s latest product updates.
+    - link "Learn More" [ref=e600] [cursor=pointer]:
+      - /url: https://duckduckgo.com/updates
+  - button "Share Feedback" [ref=e605] [cursor=pointer]
+```
