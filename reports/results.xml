@@ -1,151 +1,74 @@
-<testsuites id="" name="" tests="30" failures="2" skipped="0" errors="0" time="101.433386">
-<testsuite name="e2e/search/search.spec.js" timestamp="2026-02-15T13:51:13.570Z" hostname="chromium" tests="6" failures="0" skipped="0" time="55.783" errors="0">
-<testcase name="DuckDuckGo Search @e2e @search › TC001: Should search with valid term @smoke @regression" classname="e2e/search/search.spec.js" time="11.293">
+<testsuites id="" name="" tests="30" failures="0" skipped="0" errors="0" time="102.15535899999999">
+<testsuite name="e2e/search/search.spec.js" timestamp="2026-02-15T16:36:18.190Z" hostname="chromium" tests="6" failures="0" skipped="0" time="94.814" errors="0">
+<testcase name="DuckDuckGo Search @e2e @search › TC001: Should search with valid term @smoke @regression" classname="e2e/search/search.spec.js" time="21.911">
 </testcase>
-<testcase name="DuckDuckGo Search @e2e @search › TC002: Should verify search results page URL @smoke" classname="e2e/search/search.spec.js" time="12.628">
+<testcase name="DuckDuckGo Search @e2e @search › TC002: Should verify search results page URL @smoke" classname="e2e/search/search.spec.js" time="23.769">
 </testcase>
-<testcase name="DuckDuckGo Search @e2e @search › TC006: Should retrieve result count @smoke" classname="e2e/search/search.spec.js" time="11.292">
+<testcase name="DuckDuckGo Search @e2e @search › TC006: Should retrieve result count @smoke" classname="e2e/search/search.spec.js" time="15.789">
 </testcase>
-<testcase name="DuckDuckGo Search Smoke Tests › SMOKE001: Homepage loads successfully @smoke" classname="e2e/search/search.spec.js" time="7.335">
+<testcase name="DuckDuckGo Search Smoke Tests › SMOKE001: Homepage loads successfully @smoke" classname="e2e/search/search.spec.js" time="4.42">
 </testcase>
-<testcase name="DuckDuckGo Search Smoke Tests › SMOKE002: Basic search works @smoke" classname="e2e/search/search.spec.js" time="9.249">
+<testcase name="DuckDuckGo Search Smoke Tests › SMOKE002: Basic search works @smoke" classname="e2e/search/search.spec.js" time="19.705">
 </testcase>
-<testcase name="DuckDuckGo Search Smoke Tests › SMOKE003: Search box is visible @smoke" classname="e2e/search/search.spec.js" time="3.986">
-</testcase>
-</testsuite>
-<testsuite name="e2e/smoke/smoke.spec.js" timestamp="2026-02-15T13:51:13.570Z" hostname="chromium" tests="4" failures="0" skipped="0" time="20.39" errors="0">
-<testcase name="DuckDuckGo Smoke Tests @smoke › SM001: Application homepage is accessible @smoke" classname="e2e/smoke/smoke.spec.js" time="3.489">
-</testcase>
-<testcase name="DuckDuckGo Smoke Tests @smoke › SM002: Search functionality is operational @smoke" classname="e2e/smoke/smoke.spec.js" time="4.773">
-</testcase>
-<testcase name="DuckDuckGo Smoke Tests @smoke › SM003: Search returns results @smoke" classname="e2e/smoke/smoke.spec.js" time="4.416">
-</testcase>
-<testcase name="DuckDuckGo Smoke Tests @smoke › SM004: Result links are clickable @smoke" classname="e2e/smoke/smoke.spec.js" time="7.712">
+<testcase name="DuckDuckGo Search Smoke Tests › SMOKE003: Search box is visible @smoke" classname="e2e/search/search.spec.js" time="9.22">
 </testcase>
 </testsuite>
-<testsuite name="e2e/search/search.spec.js" timestamp="2026-02-15T13:51:13.570Z" hostname="firefox" tests="6" failures="1" skipped="0" time="55.928" errors="0">
-<testcase name="DuckDuckGo Search @e2e @search › TC001: Should search with valid term @smoke @regression" classname="e2e/search/search.spec.js" time="12.889">
-<failure message="search.spec.js:28:3 TC001: Should search with valid term @smoke @regression" type="FAILURE">
-<![CDATA[  [firefox] › e2e/search/search.spec.js:28:3 › DuckDuckGo Search @e2e @search › TC001: Should search with valid term @smoke @regression 
-
-    Error: expect(received).toBeGreaterThanOrEqual(expected)
-
-    Expected: >= 1
-    Received:    0
-
-       at ../src/utils/assertions.js:44
-
-      42 |   static assertResultCount(count, expectedMin, expectedMax, message = '') {
-      43 |     try {
-    > 44 |       expect(count).toBeGreaterThanOrEqual(expectedMin);
-         |                     ^
-      45 |       expect(count).toBeLessThanOrEqual(expectedMax);
-      46 |       logger.info(`✓ Result count ${count} is within range [${expectedMin}, ${expectedMax}]`);
-      47 |     } catch (error) {
-        at CustomAssertions.assertResultCount (/Users/aakargupte/playwright-selenium-pom/src/utils/assertions.js:44:21)
-        at /Users/aakargupte/playwright-selenium-pom/tests/e2e/search/search.spec.js:38:22
-
-    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
-    ../test-results/e2e-search-search-DuckDuck-80e89-valid-term-smoke-regression-firefox/test-failed-1.png
-    ────────────────────────────────────────────────────────────────────────────────────────────────
-
-    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
-    ../test-results/e2e-search-search-DuckDuck-80e89-valid-term-smoke-regression-firefox/video.webm
-    ────────────────────────────────────────────────────────────────────────────────────────────────
-
-    Error Context: ../test-results/e2e-search-search-DuckDuck-80e89-valid-term-smoke-regression-firefox/error-context.md
-]]>
-</failure>
-<system-out>
-<![CDATA[
-[[ATTACHMENT|../test-results/e2e-search-search-DuckDuck-80e89-valid-term-smoke-regression-firefox/test-failed-1.png]]
-
-[[ATTACHMENT|../test-results/e2e-search-search-DuckDuck-80e89-valid-term-smoke-regression-firefox/video.webm]]
-
-[[ATTACHMENT|../test-results/e2e-search-search-DuckDuck-80e89-valid-term-smoke-regression-firefox/error-context.md]]
-]]>
-</system-out>
+<testsuite name="e2e/smoke/smoke.spec.js" timestamp="2026-02-15T16:36:18.190Z" hostname="chromium" tests="4" failures="0" skipped="0" time="47.979" errors="0">
+<testcase name="DuckDuckGo Smoke Tests @smoke › SM001: Application homepage is accessible @smoke" classname="e2e/smoke/smoke.spec.js" time="7.226">
 </testcase>
-<testcase name="DuckDuckGo Search @e2e @search › TC002: Should verify search results page URL @smoke" classname="e2e/search/search.spec.js" time="14.673">
+<testcase name="DuckDuckGo Smoke Tests @smoke › SM002: Search functionality is operational @smoke" classname="e2e/smoke/smoke.spec.js" time="13.954">
 </testcase>
-<testcase name="DuckDuckGo Search @e2e @search › TC006: Should retrieve result count @smoke" classname="e2e/search/search.spec.js" time="12.399">
+<testcase name="DuckDuckGo Smoke Tests @smoke › SM003: Search returns results @smoke" classname="e2e/smoke/smoke.spec.js" time="12.823">
 </testcase>
-<testcase name="DuckDuckGo Search Smoke Tests › SMOKE001: Homepage loads successfully @smoke" classname="e2e/search/search.spec.js" time="6.333">
-</testcase>
-<testcase name="DuckDuckGo Search Smoke Tests › SMOKE002: Basic search works @smoke" classname="e2e/search/search.spec.js" time="7.223">
-</testcase>
-<testcase name="DuckDuckGo Search Smoke Tests › SMOKE003: Search box is visible @smoke" classname="e2e/search/search.spec.js" time="2.411">
+<testcase name="DuckDuckGo Smoke Tests @smoke › SM004: Result links are clickable @smoke" classname="e2e/smoke/smoke.spec.js" time="13.976">
 </testcase>
 </testsuite>
-<testsuite name="e2e/smoke/smoke.spec.js" timestamp="2026-02-15T13:51:13.570Z" hostname="firefox" tests="4" failures="1" skipped="0" time="35.402" errors="0">
-<testcase name="DuckDuckGo Smoke Tests @smoke › SM001: Application homepage is accessible @smoke" classname="e2e/smoke/smoke.spec.js" time="4.385">
+<testsuite name="e2e/search/search.spec.js" timestamp="2026-02-15T16:36:18.190Z" hostname="firefox" tests="6" failures="0" skipped="0" time="67.132" errors="0">
+<testcase name="DuckDuckGo Search @e2e @search › TC001: Should search with valid term @smoke @regression" classname="e2e/search/search.spec.js" time="15.526">
 </testcase>
-<testcase name="DuckDuckGo Smoke Tests @smoke › SM002: Search functionality is operational @smoke" classname="e2e/smoke/smoke.spec.js" time="7.151">
+<testcase name="DuckDuckGo Search @e2e @search › TC002: Should verify search results page URL @smoke" classname="e2e/search/search.spec.js" time="13.521">
 </testcase>
-<testcase name="DuckDuckGo Smoke Tests @smoke › SM003: Search returns results @smoke" classname="e2e/smoke/smoke.spec.js" time="10.486">
-<failure message="smoke.spec.js:40:3 SM003: Search returns results @smoke" type="FAILURE">
-<![CDATA[  [firefox] › e2e/smoke/smoke.spec.js:40:3 › DuckDuckGo Smoke Tests @smoke › SM003: Search returns results @smoke 
-
-    Error: expect(received).toBeGreaterThan(expected)
-
-    Expected: > 0
-    Received:   0
-
-      43 |
-      44 |     const results = await googlePage.getSearchResults();
-    > 45 |     expect(results.length).toBeGreaterThan(0);
-         |                            ^
-      46 |     logger.info(`✓ Search returned ${results.length} results`);
-      47 |   });
-      48 |
-        at /Users/aakargupte/playwright-selenium-pom/tests/e2e/smoke/smoke.spec.js:45:28
-
-    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
-    ../test-results/e2e-smoke-smoke-DuckDuckGo-44b55-earch-returns-results-smoke-firefox/test-failed-1.png
-    ────────────────────────────────────────────────────────────────────────────────────────────────
-
-    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
-    ../test-results/e2e-smoke-smoke-DuckDuckGo-44b55-earch-returns-results-smoke-firefox/video.webm
-    ────────────────────────────────────────────────────────────────────────────────────────────────
-
-    Error Context: ../test-results/e2e-smoke-smoke-DuckDuckGo-44b55-earch-returns-results-smoke-firefox/error-context.md
-]]>
-</failure>
-<system-out>
-<![CDATA[
-[[ATTACHMENT|../test-results/e2e-smoke-smoke-DuckDuckGo-44b55-earch-returns-results-smoke-firefox/test-failed-1.png]]
-
-[[ATTACHMENT|../test-results/e2e-smoke-smoke-DuckDuckGo-44b55-earch-returns-results-smoke-firefox/video.webm]]
-
-[[ATTACHMENT|../test-results/e2e-smoke-smoke-DuckDuckGo-44b55-earch-returns-results-smoke-firefox/error-context.md]]
-]]>
-</system-out>
+<testcase name="DuckDuckGo Search @e2e @search › TC006: Should retrieve result count @smoke" classname="e2e/search/search.spec.js" time="14.158">
 </testcase>
-<testcase name="DuckDuckGo Smoke Tests @smoke › SM004: Result links are clickable @smoke" classname="e2e/smoke/smoke.spec.js" time="13.38">
+<testcase name="DuckDuckGo Search Smoke Tests › SMOKE001: Homepage loads successfully @smoke" classname="e2e/search/search.spec.js" time="8.583">
+</testcase>
+<testcase name="DuckDuckGo Search Smoke Tests › SMOKE002: Basic search works @smoke" classname="e2e/search/search.spec.js" time="10.534">
+</testcase>
+<testcase name="DuckDuckGo Search Smoke Tests › SMOKE003: Search box is visible @smoke" classname="e2e/search/search.spec.js" time="4.81">
 </testcase>
 </testsuite>
-<testsuite name="e2e/search/search.spec.js" timestamp="2026-02-15T13:51:13.570Z" hostname="webkit" tests="6" failures="0" skipped="0" time="107.296" errors="0">
-<testcase name="DuckDuckGo Search @e2e @search › TC001: Should search with valid term @smoke @regression" classname="e2e/search/search.spec.js" time="22.698">
+<testsuite name="e2e/smoke/smoke.spec.js" timestamp="2026-02-15T16:36:18.190Z" hostname="firefox" tests="4" failures="0" skipped="0" time="37.344" errors="0">
+<testcase name="DuckDuckGo Smoke Tests @smoke › SM001: Application homepage is accessible @smoke" classname="e2e/smoke/smoke.spec.js" time="6.112">
 </testcase>
-<testcase name="DuckDuckGo Search @e2e @search › TC002: Should verify search results page URL @smoke" classname="e2e/search/search.spec.js" time="23.825">
+<testcase name="DuckDuckGo Smoke Tests @smoke › SM002: Search functionality is operational @smoke" classname="e2e/smoke/smoke.spec.js" time="10.295">
 </testcase>
-<testcase name="DuckDuckGo Search @e2e @search › TC006: Should retrieve result count @smoke" classname="e2e/search/search.spec.js" time="25.007">
+<testcase name="DuckDuckGo Smoke Tests @smoke › SM003: Search returns results @smoke" classname="e2e/smoke/smoke.spec.js" time="11.869">
 </testcase>
-<testcase name="DuckDuckGo Search Smoke Tests › SMOKE001: Homepage loads successfully @smoke" classname="e2e/search/search.spec.js" time="16.418">
-</testcase>
-<testcase name="DuckDuckGo Search Smoke Tests › SMOKE002: Basic search works @smoke" classname="e2e/search/search.spec.js" time="11.274">
-</testcase>
-<testcase name="DuckDuckGo Search Smoke Tests › SMOKE003: Search box is visible @smoke" classname="e2e/search/search.spec.js" time="8.074">
+<testcase name="DuckDuckGo Smoke Tests @smoke › SM004: Result links are clickable @smoke" classname="e2e/smoke/smoke.spec.js" time="9.068">
 </testcase>
 </testsuite>
-<testsuite name="e2e/smoke/smoke.spec.js" timestamp="2026-02-15T13:51:13.570Z" hostname="webkit" tests="4" failures="0" skipped="0" time="42.25" errors="0">
-<testcase name="DuckDuckGo Smoke Tests @smoke › SM001: Application homepage is accessible @smoke" classname="e2e/smoke/smoke.spec.js" time="4.321">
+<testsuite name="e2e/search/search.spec.js" timestamp="2026-02-15T16:36:18.190Z" hostname="webkit" tests="6" failures="0" skipped="0" time="52.8" errors="0">
+<testcase name="DuckDuckGo Search @e2e @search › TC001: Should search with valid term @smoke @regression" classname="e2e/search/search.spec.js" time="13.659">
 </testcase>
-<testcase name="DuckDuckGo Smoke Tests @smoke › SM002: Search functionality is operational @smoke" classname="e2e/smoke/smoke.spec.js" time="11.954">
+<testcase name="DuckDuckGo Search @e2e @search › TC002: Should verify search results page URL @smoke" classname="e2e/search/search.spec.js" time="13.931">
 </testcase>
-<testcase name="DuckDuckGo Smoke Tests @smoke › SM003: Search returns results @smoke" classname="e2e/smoke/smoke.spec.js" time="15.104">
+<testcase name="DuckDuckGo Search @e2e @search › TC006: Should retrieve result count @smoke" classname="e2e/search/search.spec.js" time="13.015">
 </testcase>
-<testcase name="DuckDuckGo Smoke Tests @smoke › SM004: Result links are clickable @smoke" classname="e2e/smoke/smoke.spec.js" time="10.871">
+<testcase name="DuckDuckGo Search Smoke Tests › SMOKE001: Homepage loads successfully @smoke" classname="e2e/search/search.spec.js" time="2.24">
+</testcase>
+<testcase name="DuckDuckGo Search Smoke Tests › SMOKE002: Basic search works @smoke" classname="e2e/search/search.spec.js" time="8.22">
+</testcase>
+<testcase name="DuckDuckGo Search Smoke Tests › SMOKE003: Search box is visible @smoke" classname="e2e/search/search.spec.js" time="1.735">
+</testcase>
+</testsuite>
+<testsuite name="e2e/smoke/smoke.spec.js" timestamp="2026-02-15T16:36:18.190Z" hostname="webkit" tests="4" failures="0" skipped="0" time="50.005" errors="0">
+<testcase name="DuckDuckGo Smoke Tests @smoke › SM001: Application homepage is accessible @smoke" classname="e2e/smoke/smoke.spec.js" time="5.276">
+</testcase>
+<testcase name="DuckDuckGo Smoke Tests @smoke › SM002: Search functionality is operational @smoke" classname="e2e/smoke/smoke.spec.js" time="14.401">
+</testcase>
+<testcase name="DuckDuckGo Smoke Tests @smoke › SM003: Search returns results @smoke" classname="e2e/smoke/smoke.spec.js" time="13.408">
+</testcase>
+<testcase name="DuckDuckGo Smoke Tests @smoke › SM004: Result links are clickable @smoke" classname="e2e/smoke/smoke.spec.js" time="16.92">
 </testcase>
 </testsuite>
 </testsuites>

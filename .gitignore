@@ -2,3 +2,17 @@ node_modules/
 .playwright/
 .env
 .DS_Store
+
+ Playwright outputs
+playwright-report/
+test-results/
+blob-report/
+trace.zip
+*.trace
+
+# Generated reports/logs/artifacts
+reports/
+*.html
+*.log
+*.xml
+*.json

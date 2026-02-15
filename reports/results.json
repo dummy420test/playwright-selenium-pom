@@ -69,7 +69,8 @@
       [
         "html",
         {
-          "outputFolder": "playwright-report"
+          "outputFolder": "playwright-report",
+          "open": "never"
         }
       ],
       [
@@ -137,12 +138,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 11293,
+                      "duration": 21911,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-15T13:51:14.243Z",
+                      "startTime": "2026-02-15T16:36:18.871Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -175,12 +176,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 12628,
+                      "duration": 23769,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-15T13:51:14.244Z",
+                      "startTime": "2026-02-15T16:36:18.870Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -213,12 +214,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 11292,
+                      "duration": 15789,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-15T13:51:14.252Z",
+                      "startTime": "2026-02-15T16:36:18.876Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -233,7 +234,7 @@
             },
             {
               "title": "TC001: Should search with valid term @smoke @regression",
-              "ok": false,
+              "ok": true,
               "tags": [
                 "e2e",
                 "search",
@@ -250,59 +251,19 @@
                   "results": [
                     {
                       "workerIndex": 4,
-                      "parallelIndex": 3,
-                      "status": "failed",
-                      "duration": 12889,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: >= \u001b[32m1\u001b[39m\nReceived:    \u001b[31m0\u001b[39m",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: >= \u001b[32m1\u001b[39m\nReceived:    \u001b[31m0\u001b[39m\n    at CustomAssertions.assertResultCount (/Users/aakargupte/playwright-selenium-pom/src/utils/assertions.js:44:21)\n    at /Users/aakargupte/playwright-selenium-pom/tests/e2e/search/search.spec.js:38:22",
-                        "location": {
-                          "file": "/Users/aakargupte/playwright-selenium-pom/src/utils/assertions.js",
-                          "column": 21,
-                          "line": 44
-                        },
-                        "snippet": "\u001b[90m   at \u001b[39m../src/utils/assertions.js:44\n\n\u001b[0m \u001b[90m 42 |\u001b[39m   \u001b[36mstatic\u001b[39m assertResultCount(count\u001b[33m,\u001b[39m expectedMin\u001b[33m,\u001b[39m expectedMax\u001b[33m,\u001b[39m message \u001b[33m=\u001b[39m \u001b[32m''\u001b[39m) {\n \u001b[90m 43 |\u001b[39m     \u001b[36mtry\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 44 |\u001b[39m       expect(count)\u001b[33m.\u001b[39mtoBeGreaterThanOrEqual(expectedMin)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 45 |\u001b[39m       expect(count)\u001b[33m.\u001b[39mtoBeLessThanOrEqual(expectedMax)\u001b[33m;\u001b[39m\n \u001b[90m 46 |\u001b[39m       logger\u001b[33m.\u001b[39minfo(\u001b[32m`✓ Result count ${count} is within range [${expectedMin}, ${expectedMax}]`\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 47 |\u001b[39m     } \u001b[36mcatch\u001b[39m (error) {\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/Users/aakargupte/playwright-selenium-pom/src/utils/assertions.js",
-                            "column": 21,
-                            "line": 44
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: >= \u001b[32m1\u001b[39m\nReceived:    \u001b[31m0\u001b[39m\n\n\u001b[90m   at \u001b[39m../src/utils/assertions.js:44\n\n\u001b[0m \u001b[90m 42 |\u001b[39m   \u001b[36mstatic\u001b[39m assertResultCount(count\u001b[33m,\u001b[39m expectedMin\u001b[33m,\u001b[39m expectedMax\u001b[33m,\u001b[39m message \u001b[33m=\u001b[39m \u001b[32m''\u001b[39m) {\n \u001b[90m 43 |\u001b[39m     \u001b[36mtry\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 44 |\u001b[39m       expect(count)\u001b[33m.\u001b[39mtoBeGreaterThanOrEqual(expectedMin)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 45 |\u001b[39m       expect(count)\u001b[33m.\u001b[39mtoBeLessThanOrEqual(expectedMax)\u001b[33m;\u001b[39m\n \u001b[90m 46 |\u001b[39m       logger\u001b[33m.\u001b[39minfo(\u001b[32m`✓ Result count ${count} is within range [${expectedMin}, ${expectedMax}]`\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 47 |\u001b[39m     } \u001b[36mcatch\u001b[39m (error) {\u001b[0m\n\u001b[2m    at CustomAssertions.assertResultCount (/Users/aakargupte/playwright-selenium-pom/src/utils/assertions.js:44:21)\u001b[22m\n\u001b[2m    at /Users/aakargupte/playwright-selenium-pom/tests/e2e/search/search.spec.js:38:22\u001b[22m"
-                        }
-                      ],
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 15526,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-15T13:51:33.539Z",
+                      "startTime": "2026-02-15T16:36:51.286Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/Users/aakargupte/playwright-selenium-pom/test-results/e2e-search-search-DuckDuck-80e89-valid-term-smoke-regression-firefox/test-failed-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "/Users/aakargupte/playwright-selenium-pom/test-results/e2e-search-search-DuckDuck-80e89-valid-term-smoke-regression-firefox/video.webm"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/Users/aakargupte/playwright-selenium-pom/test-results/e2e-search-search-DuckDuck-80e89-valid-term-smoke-regression-firefox/error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/Users/aakargupte/playwright-selenium-pom/src/utils/assertions.js",
-                        "column": 21,
-                        "line": 44
-                      }
+                      "attachments": []
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "aef629e19d6027bc927e-3f1840406839b9ad945a",
@@ -328,14 +289,14 @@
                   "results": [
                     {
                       "workerIndex": 5,
-                      "parallelIndex": 1,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 14673,
+                      "duration": 13521,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-15T13:51:34.487Z",
+                      "startTime": "2026-02-15T16:36:59.469Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -366,14 +327,14 @@
                   "results": [
                     {
                       "workerIndex": 6,
-                      "parallelIndex": 0,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 12399,
+                      "duration": 14158,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-15T13:51:35.894Z",
+                      "startTime": "2026-02-15T16:36:59.657Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -404,15 +365,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 9,
-                      "parallelIndex": 3,
+                      "workerIndex": 8,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 22698,
+                      "duration": 13659,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-15T13:52:00.593Z",
+                      "startTime": "2026-02-15T16:37:23.136Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -442,15 +403,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 10,
-                      "parallelIndex": 0,
+                      "workerIndex": 9,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 23825,
+                      "duration": 13931,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-15T13:52:00.591Z",
+                      "startTime": "2026-02-15T16:37:27.443Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -480,15 +441,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 11,
-                      "parallelIndex": 1,
+                      "workerIndex": 10,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 25007,
+                      "duration": 13015,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-15T13:52:04.267Z",
+                      "startTime": "2026-02-15T16:37:30.056Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -527,12 +488,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 7335,
+                      "duration": 4420,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-15T13:51:14.262Z",
+                      "startTime": "2026-02-15T16:36:18.901Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -563,12 +524,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 9249,
+                      "duration": 19705,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-15T13:51:23.272Z",
+                      "startTime": "2026-02-15T16:36:25.453Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -599,12 +560,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 3986,
+                      "duration": 9220,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-15T13:51:27.183Z",
+                      "startTime": "2026-02-15T16:36:36.794Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -635,12 +596,12 @@
                       "workerIndex": 7,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 6333,
+                      "duration": 8583,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-15T13:51:41.280Z",
+                      "startTime": "2026-02-15T16:37:00.953Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -668,15 +629,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 7,
-                      "parallelIndex": 2,
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 7223,
+                      "duration": 10534,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-15T13:51:49.012Z",
+                      "startTime": "2026-02-15T16:37:08.935Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -704,15 +665,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 6,
-                      "parallelIndex": 0,
+                      "workerIndex": 7,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 2411,
+                      "duration": 4810,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-15T13:51:49.728Z",
+                      "startTime": "2026-02-15T16:37:11.699Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -740,15 +701,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 12,
-                      "parallelIndex": 2,
+                      "workerIndex": 11,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 16418,
+                      "duration": 2240,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-15T13:52:10.795Z",
+                      "startTime": "2026-02-15T16:37:30.056Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -776,15 +737,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 12,
-                      "parallelIndex": 2,
+                      "workerIndex": 11,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 11274,
+                      "duration": 8220,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-15T13:52:28.544Z",
+                      "startTime": "2026-02-15T16:37:32.599Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -812,15 +773,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 9,
-                      "parallelIndex": 3,
+                      "workerIndex": 8,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 8074,
+                      "duration": 1735,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-15T13:52:34.794Z",
+                      "startTime": "2026-02-15T16:37:38.865Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -869,12 +830,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 3489,
+                      "duration": 7226,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-15T13:51:27.186Z",
+                      "startTime": "2026-02-15T16:36:42.909Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -906,12 +867,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 4773,
+                      "duration": 13954,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-15T13:51:28.532Z",
+                      "startTime": "2026-02-15T16:36:44.777Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -940,15 +901,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 0,
-                      "parallelIndex": 0,
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 4416,
+                      "duration": 12823,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-15T13:51:30.706Z",
+                      "startTime": "2026-02-15T16:36:45.178Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -980,12 +941,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 7712,
+                      "duration": 13976,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-15T13:51:31.196Z",
+                      "startTime": "2026-02-15T16:36:46.032Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1014,15 +975,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 8,
-                      "parallelIndex": 3,
+                      "workerIndex": 6,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 4385,
+                      "duration": 6112,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-15T13:51:52.491Z",
+                      "startTime": "2026-02-15T16:37:15.281Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1051,15 +1012,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 6,
-                      "parallelIndex": 0,
+                      "workerIndex": 5,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 7151,
+                      "duration": 10295,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-15T13:51:52.207Z",
+                      "startTime": "2026-02-15T16:37:15.427Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1074,7 +1035,7 @@
             },
             {
               "title": "SM003: Search returns results @smoke",
-              "ok": false,
+              "ok": true,
               "tags": [
                 "smoke",
                 "smoke"
@@ -1088,60 +1049,20 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 5,
-                      "parallelIndex": 1,
-                      "status": "failed",
-                      "duration": 10486,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n    at /Users/aakargupte/playwright-selenium-pom/tests/e2e/smoke/smoke.spec.js:45:28",
-                        "location": {
-                          "file": "/Users/aakargupte/playwright-selenium-pom/tests/e2e/smoke/smoke.spec.js",
-                          "column": 28,
-                          "line": 45
-                        },
-                        "snippet": "\u001b[0m \u001b[90m 43 |\u001b[39m\n \u001b[90m 44 |\u001b[39m     \u001b[36mconst\u001b[39m results \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m googlePage\u001b[33m.\u001b[39mgetSearchResults()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 45 |\u001b[39m     expect(results\u001b[33m.\u001b[39mlength)\u001b[33m.\u001b[39mtoBeGreaterThan(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                            \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 46 |\u001b[39m     logger\u001b[33m.\u001b[39minfo(\u001b[32m`✓ Search returned ${results.length} results`\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 47 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 48 |\u001b[39m\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/Users/aakargupte/playwright-selenium-pom/tests/e2e/smoke/smoke.spec.js",
-                            "column": 28,
-                            "line": 45
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n\n\u001b[0m \u001b[90m 43 |\u001b[39m\n \u001b[90m 44 |\u001b[39m     \u001b[36mconst\u001b[39m results \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m googlePage\u001b[33m.\u001b[39mgetSearchResults()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 45 |\u001b[39m     expect(results\u001b[33m.\u001b[39mlength)\u001b[33m.\u001b[39mtoBeGreaterThan(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                            \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 46 |\u001b[39m     logger\u001b[33m.\u001b[39minfo(\u001b[32m`✓ Search returned ${results.length} results`\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 47 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 48 |\u001b[39m\u001b[0m\n\u001b[2m    at /Users/aakargupte/playwright-selenium-pom/tests/e2e/smoke/smoke.spec.js:45:28\u001b[22m"
-                        }
-                      ],
+                      "workerIndex": 7,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 11869,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-15T13:51:52.663Z",
+                      "startTime": "2026-02-15T16:37:16.677Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/Users/aakargupte/playwright-selenium-pom/test-results/e2e-smoke-smoke-DuckDuckGo-44b55-earch-returns-results-smoke-firefox/test-failed-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "/Users/aakargupte/playwright-selenium-pom/test-results/e2e-smoke-smoke-DuckDuckGo-44b55-earch-returns-results-smoke-firefox/video.webm"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/Users/aakargupte/playwright-selenium-pom/test-results/e2e-smoke-smoke-DuckDuckGo-44b55-earch-returns-results-smoke-firefox/error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/Users/aakargupte/playwright-selenium-pom/tests/e2e/smoke/smoke.spec.js",
-                        "column": 28,
-                        "line": 45
-                      }
+                      "attachments": []
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "b8038d4767de92f1cc68-9c4a288adc2833ddbc0d",
@@ -1165,15 +1086,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 7,
-                      "parallelIndex": 2,
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 13380,
+                      "duration": 9068,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-15T13:51:56.296Z",
+                      "startTime": "2026-02-15T16:37:19.526Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1202,15 +1123,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 10,
-                      "parallelIndex": 0,
+                      "workerIndex": 8,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 4321,
+                      "duration": 5276,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-15T13:52:35.922Z",
+                      "startTime": "2026-02-15T16:37:40.622Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1240,14 +1161,14 @@
                   "results": [
                     {
                       "workerIndex": 11,
-                      "parallelIndex": 1,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 11954,
+                      "duration": 14401,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-15T13:52:37.114Z",
+                      "startTime": "2026-02-15T16:37:40.858Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1276,15 +1197,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 12,
-                      "parallelIndex": 2,
+                      "workerIndex": 9,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 15104,
+                      "duration": 13408,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-15T13:52:39.833Z",
+                      "startTime": "2026-02-15T16:37:41.736Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1314,14 +1235,14 @@
                   "results": [
                     {
                       "workerIndex": 10,
-                      "parallelIndex": 0,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 10871,
+                      "duration": 16920,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-15T13:52:40.254Z",
+                      "startTime": "2026-02-15T16:37:43.360Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1341,11 +1262,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-02-15T13:51:13.549Z",
-    "duration": 101433.386,
-    "expected": 28,
+    "startTime": "2026-02-15T16:36:18.167Z",
+    "duration": 102155.359,
+    "expected": 30,
     "skipped": 0,
-    "unexpected": 2,
+    "unexpected": 0,
     "flaky": 0
   }
 }

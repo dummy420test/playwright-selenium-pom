@@ -40,3 +40,11 @@ jobs:
           name: playwright-html-report
           path: playwright-report/
           retention-days: 30
+
+      - name: Upload Playwright Failure JSON
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-failures-json
+          path: reports/failures.json
+          retention-days: 30

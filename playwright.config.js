@@ -43,6 +43,7 @@ module.exports = defineConfig({
     ['json', { outputFile: 'reports/results.json' }],
     ['junit', { outputFile: 'reports/results.xml' }],
     ['list'],
+    ['./src/utils/json-failures-reporter.js'],
   ],
 
   // webServer: {
