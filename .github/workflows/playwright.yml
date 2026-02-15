@@ -26,6 +26,8 @@ jobs:
         run: npx playwright install --with-deps
 
       - name: Run smoke tests
+        env:
+          HEADLESS: 'true'
         run: npx playwright test --grep @smoke
 
       - name: Upload Playwright HTML Report
