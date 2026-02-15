@@ -4,6 +4,7 @@ const testConfig = require('./config/test.config.js');
 require('dotenv').config();
 
 const envConfig = getConfig();
+const isCI = !!process.env.CI;
 
 module.exports = defineConfig({
   testDir: 'tests',
@@ -14,7 +15,7 @@ module.exports = defineConfig({
   workers: process.env.CI ? 1 : testConfig.PARALLEL.workers,
 
   use: {
-    headless: envConfig.headless,
+    headless: isCI ? true : envConfig.headless,
     slowMo: envConfig.slowMo,
     viewport: { width: 1280, height: 720 },
     trace: 'on-first-retry',
@@ -38,7 +39,7 @@ module.exports = defineConfig({
   ],
 
   reporter: [
-    ['html', { outputFolder: 'playwright-report' }],
+    ['html', { outputFolder: 'playwright-report', open: 'never' }],
     ['json', { outputFile: 'reports/results.json' }],
     ['junit', { outputFile: 'reports/results.xml' }],
     ['list'],
